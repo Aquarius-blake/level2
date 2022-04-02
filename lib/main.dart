@@ -35,7 +35,9 @@ class _QuotesState extends State<Quotes> {
         ),
       ),
       body:Column(
-        children: <Widget>[],
+        children: <Widget>[
+
+        ],
       ) ,
     );
   }
