@@ -19,7 +19,7 @@ class _QuotesState extends State<Quotes> {
     return Scaffold(
       backgroundColor:Colors.yellowAccent ,
       appBar: AppBar(
-
+          backgroundColor: Colors.blue[200],
       ),
     );
   }
