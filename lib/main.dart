@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(MaterialApp(
-    home:  ,
+    home: Quotes() ,
   ));
 }
 
@@ -16,6 +16,6 @@ class Quotes extends StatefulWidget {
 class _QuotesState extends State<Quotes> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold();
   }
 }
