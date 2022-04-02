@@ -22,13 +22,17 @@ class _QuotesState extends State<Quotes> {
       backgroundColor:Colors.yellowAccent ,
       appBar: AppBar(
           backgroundColor: Colors.blue[200],
-        title: Title(
-            color: Colors.white,
-            child:Text(
-              "Welcome To Jumanji"
-
-        )
+        title: Center(
+          child: Title(
+              color: Colors.white,
+              child:Text(
+                "Welcome To Jumanji",
+                  style: TextStyle(
+                  fontWeight: FontWeight.bold
+              ),
+          )
       ),
+        ),
       ),
     );
   }
