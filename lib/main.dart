@@ -24,8 +24,9 @@ class _QuotesState extends State<Quotes> {
           backgroundColor: Colors.blue[200],
         title: Title(
             color: Colors.white,
-            child: Text(
-          "Welcome to Jumanji"
+            child:Text(
+              "Welcome To Jumanji"
+            )
         )),
       ),
     );
