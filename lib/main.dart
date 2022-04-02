@@ -17,6 +17,8 @@ class Quotes extends StatefulWidget {
 }
 
 class _QuotesState extends State<Quotes> {
+
+  List<String> something=[];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
