@@ -26,8 +26,9 @@ class _QuotesState extends State<Quotes> {
             color: Colors.white,
             child:Text(
               "Welcome To Jumanji"
-            )
-        )),
+
+        )
+      ),
       ),
     );
   }
