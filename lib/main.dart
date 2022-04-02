@@ -18,6 +18,9 @@ class _QuotesState extends State<Quotes> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor:Colors.yellowAccent ,
+      appBar: AppBar(
+
+      ),
     );
   }
 }
