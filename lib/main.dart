@@ -16,6 +16,8 @@ class Quotes extends StatefulWidget {
 class _QuotesState extends State<Quotes> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      backgroundColor:Colors.yellowAccent ,
+    );
   }
 }
