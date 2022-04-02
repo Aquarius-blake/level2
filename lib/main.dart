@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -20,6 +22,11 @@ class _QuotesState extends State<Quotes> {
       backgroundColor:Colors.yellowAccent ,
       appBar: AppBar(
           backgroundColor: Colors.blue[200],
+        title: Title(
+            color: Colors.white,
+            child: Text(
+          "Welcome to Jumanji"
+        )),
       ),
     );
   }
