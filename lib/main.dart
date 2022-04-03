@@ -40,7 +40,10 @@ Text(
 ),
   SizedBox(height: 2.0,),
   Text(
-    Quote.author
+    Quote.author,
+    style: TextStyle(
+      fontSize: 6.0,
+    ),
   )
 
 ],
