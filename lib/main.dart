@@ -24,7 +24,11 @@ class _QuotesState extends State<Quotes> {
     Quote(text: "Fear Women",author:" ~Sampson"),
 
   ];
+Widget qtemplate(Quote){
+  return Card(
 
+  );
+}
 
   @override
   Widget build(BuildContext context) {
