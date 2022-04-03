@@ -26,6 +26,8 @@ class _QuotesState extends State<Quotes> {
     "Fear Women"
         " ~Sampson",
   ];
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
