@@ -45,7 +45,7 @@ class _QuotesState extends State<Quotes> {
         ),
       ),
       body:Column(
-        children: something.map((Quote) => Text('${Quote.text} ${Quote.author}')
+        children: something.map((e) => Text('${e.text} ${e.author}')
           ).toList(),
 
 
