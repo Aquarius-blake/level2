@@ -19,7 +19,9 @@ class Quotes extends StatefulWidget {
 class _QuotesState extends State<Quotes> {
 
   List<String> something=[
-    ")baa nanum y3 no d3 no, 3nfa bi da"
+    ")baa nanum y3 no d3 no, 3nfa bi da",
+    "Y3b3 soreeeeee",
+    "Fear Women"
   ];
   @override
   Widget build(BuildContext context) {
