@@ -1,5 +1,5 @@
 
-
+import 'Quote.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,7 +9,7 @@ void main() {
 }
 
 class Quotes extends StatefulWidget {
-  const Quotes({Key? key}) : super(key: key);
+
 
 
   @override
@@ -18,13 +18,10 @@ class Quotes extends StatefulWidget {
 
 class _QuotesState extends State<Quotes> {
 
-  List<String> something=[
-    ")baa nanum y3 no d3 no, 3nfa bi da"
-        " ~Adam",
-    "Y3b3 soreeeeee"
-        " ~Yaw Tog",
-    "Fear Women"
-        " ~Sampson",
+  List<dynamic> something=[
+   Quote(text: ")baa nanum y3 no d3 no, 3nfa bi da",author:"Adam"),
+
+
   ];
 
 
