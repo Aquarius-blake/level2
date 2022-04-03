@@ -37,7 +37,11 @@ Text(
       fontSize: 13.0,
     color: Colors.black,
   ),
-)
+),
+  SizedBox(height: 2.0,),
+  Text(
+    Quote.author
+  )
 
 ],
     ),
