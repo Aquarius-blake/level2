@@ -23,7 +23,7 @@ class _QuotesState extends State<Quotes> {
 
   List<Quote> something=[
    Quote(text: ")baa nanum y3 no d3 no, 3nfa bi da",author:" ~Adam"),
-    Quote(text: "Y3b3 soreeeee",author:" ~Yaw Tog"),
+    Quote(text: "Y3b3 soreeeee",author:" ~Lazarus"),
     Quote(text: "Fear Women",author:" ~Sampson"),
 
   ];
