@@ -62,7 +62,7 @@ Text(
           child: Title(
               color: Colors.white,
               child:Text(
-                "Quotes",
+                "Famous Quotes",
                   style: TextStyle(
                   fontWeight: FontWeight.bold
               ),
