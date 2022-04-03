@@ -32,7 +32,10 @@ Widget qtemplate(Quote){
     child: Column(
 children: <Widget>[
 Text(
-    Quote.text
+    Quote.text,
+  style: TextStyle(
+
+  ),
 )
 
 ],
