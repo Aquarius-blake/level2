@@ -19,9 +19,9 @@ class Quotes extends StatefulWidget {
 class _QuotesState extends State<Quotes> {
 
   List<dynamic> something=[
-   Quote(text: ")baa nanum y3 no d3 no, 3nfa bi da",author:"Adam"),
-    Quote(text: "Y3b3 soreeeee",author:"Yaw Tog"),
-    Quote(text: ")baa nanum y3 no d3 no, 3nfa bi da",author:"~Sampson"),
+   Quote(text: ")baa nanum y3 no d3 no, 3nfa bi da",author:" ~Adam"),
+    Quote(text: "Y3b3 soreeeee",author:" ~Yaw Tog"),
+    Quote(text: "Fear Women",author:" ~Sampson"),
 
   ];
 
