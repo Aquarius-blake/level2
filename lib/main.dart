@@ -65,7 +65,7 @@ Text(
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor:Colors.yellowAccent ,
+      backgroundColor:Colors.yellowAccent[100] ,
       appBar: AppBar(
           backgroundColor: Colors.blue[200],
         title: Center(
