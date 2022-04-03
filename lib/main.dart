@@ -67,7 +67,7 @@ Text(
     return Scaffold(
       backgroundColor:Colors.yellowAccent[100] ,
       appBar: AppBar(
-          backgroundColor: Colors.blue[200],
+          backgroundColor: Colors.blue[300],
         title: Center(
           child: Title(
               color: Colors.white,
