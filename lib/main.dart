@@ -43,6 +43,7 @@ Text(
     Quote.author,
     style: TextStyle(
       fontSize: 6.0,
+      color: Colors.black,
     ),
   )
 
