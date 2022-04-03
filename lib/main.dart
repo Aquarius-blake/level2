@@ -20,11 +20,11 @@ class _QuotesState extends State<Quotes> {
 
   List<String> something=[
     ")baa nanum y3 no d3 no, 3nfa bi da"
-        "~Adam",
+        " ~Adam",
     "Y3b3 soreeeeee"
-        "~Yaw Tog",
+        " ~Yaw Tog",
     "Fear Women"
-        "~Sampson",
+        " ~Sampson",
   ];
   @override
   Widget build(BuildContext context) {
