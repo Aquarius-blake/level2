@@ -34,15 +34,15 @@ children: <Widget>[
 Text(
     Quote.text,
   style: TextStyle(
-      fontSize: 15.0,
+      fontSize: 20.0,
     color: Colors.black,
   ),
 ),
-  SizedBox(height: 2.0,),
+  SizedBox(height: 7.0,),
   Text(
     Quote.author,
     style: TextStyle(
-      fontSize: 6.0,
+      fontSize: 12.0,
       color: Colors.black,
     ),
   )
@@ -62,7 +62,7 @@ Text(
           child: Title(
               color: Colors.white,
               child:Text(
-                "Welcome To Jumanji",
+                "Quotes",
                   style: TextStyle(
                   fontWeight: FontWeight.bold
               ),
