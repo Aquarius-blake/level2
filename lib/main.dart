@@ -24,7 +24,7 @@ class _QuotesState extends State<Quotes> {
     "Y3b3 soreeeeee"
         "~Yaw Tog",
     "Fear Women"
-        "Sampson",
+        "~Sampson",
   ];
   @override
   Widget build(BuildContext context) {
