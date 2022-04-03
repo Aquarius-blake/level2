@@ -71,7 +71,7 @@ Text(
         ),
       ),
       body:Column(
-        children: something.map((e) => qtemplate(Quote)
+        children: something.map((e) => qtemplate(e)
             
           ).toList(),
 
