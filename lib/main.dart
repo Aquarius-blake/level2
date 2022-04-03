@@ -42,9 +42,11 @@ class _QuotesState extends State<Quotes> {
         ),
       ),
       body:Column(
-        children: <Widget>[
+        children: something.map((e) {
+          return Text(e);
+        }  ).toList(),
 
-        ],
+
       ) ,
     );
   }
