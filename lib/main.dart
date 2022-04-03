@@ -31,6 +31,9 @@ Widget qtemplate(Quote){
       margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
     child: Column(
 children: <Widget>[
+Text(
+    Quote.text
+)
 
 ],
     ),
