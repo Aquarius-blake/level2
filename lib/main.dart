@@ -34,7 +34,7 @@ children: <Widget>[
 Text(
     Quote.text,
   style: TextStyle(
-
+      fontSize: 13.0,
   ),
 )
 
