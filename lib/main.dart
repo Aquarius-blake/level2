@@ -35,6 +35,7 @@ Text(
     Quote.text,
   style: TextStyle(
       fontSize: 13.0,
+    color: Colors.black,
   ),
 )
 
