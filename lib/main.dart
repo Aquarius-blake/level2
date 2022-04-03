@@ -1,4 +1,6 @@
 
+import 'package:flutter/widgets.dart';
+
 import 'Quote.dart';
 import 'package:flutter/material.dart';
 
@@ -26,7 +28,7 @@ class _QuotesState extends State<Quotes> {
   ];
 Widget qtemplate(Quote){
   return Card(
-
+      margin: EdgeInsets.fromLTRB(0, 0, 0, 0),
   );
 }
 
