@@ -34,7 +34,7 @@ children: <Widget>[
 Text(
     Quote.text,
   style: TextStyle(
-      fontSize: 13.0,
+      fontSize: 15.0,
     color: Colors.black,
   ),
 ),
@@ -71,7 +71,8 @@ Text(
         ),
       ),
       body:Column(
-        children: something.map((e) => Text('${e.text} ${e.author}')
+        children: something.map((e) => qtemplate(Quote)
+            
           ).toList(),
 
 
