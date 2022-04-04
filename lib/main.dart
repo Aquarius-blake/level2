@@ -26,7 +26,7 @@ class _QuotesState extends State<Quotes> {
     Quote(text: "Y3b3 soreeeee",author:" ~Lazarus"),
     Quote(text: "Fear Women",author:" ~Sampson"),
     Quote(text: "Anything that comes before the word \"but\" is bullshit ",author:" ~John Snow"),
-
+    Quote(text: "Valar Morgullis, Valar Dohaeris ",author:" ~Faceless god"),
   ];
 Widget qtemplate(Quote){
   return Card(
