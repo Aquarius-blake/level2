@@ -30,7 +30,7 @@ class _QuotesState extends State<Quotes> {
     Quote(text: "🤣🤣🤣🤣🤣🤣",author:" ~jackie"),
   ];
 Widget qtemplate(Quote){
-  return Quotecard();
+  return Quotecard(quote);
 }
 
   @override
@@ -65,6 +65,8 @@ Widget qtemplate(Quote){
 
 class Quotecard extends StatelessWidget {
 
+  final Quote quote;
+  Quote({this.quote});
   @override
   Widget build(BuildContext context) {
     return Card(
