@@ -26,7 +26,7 @@ class _QuotesState extends State<Quotes> {
     Quote(text: "Y3b3 soreeeee",author:" ~Lazarus"),
     Quote(text: "Fear Women",author:" ~Sampson"),
     Quote(text: "Boys boys no be fam, nti mi diɛ mɛ allow cash-out ",author:" ~Judas Iscariot"),
-    Quote(text: "D",author:" ~Dikkoe"),
+    Quote(text: "Du",author:" ~Dikkoe"),
     Quote(text: "🤣🤣🤣🤣🤣🤣",author:" ~jackie"),
   ];
 Widget qtemplate(Quote){
