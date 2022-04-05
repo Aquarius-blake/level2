@@ -58,7 +58,7 @@ Card(
       floatingActionButton: FloatingActionButton(
           onPressed: (){
               setState(() {
-                fre="Hey Idiot";
+                fre="Hey Idiot, fuck off";
               });
           }
       ),
