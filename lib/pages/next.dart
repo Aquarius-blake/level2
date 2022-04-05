@@ -17,6 +17,7 @@ appBar: AppBar(
 backgroundColor: Colors.blue[200],
   title: Center(
     child: Row(
+
       children:<Widget>[
         Icon(Icons.insert_emoticon),
         SizedBox(width: 60,),
