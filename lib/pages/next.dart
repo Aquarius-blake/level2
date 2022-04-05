@@ -9,7 +9,7 @@ class next extends StatefulWidget {
 }
 
 class _nextState extends State<next> {
-  String fre="Hello world";
+  String fre="Hello, Pls press the button below";
 
   @override
   Widget build(BuildContext context) {
