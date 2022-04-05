@@ -16,19 +16,21 @@ appBar: AppBar(
 
 backgroundColor: Colors.blue[200],
   title: Center(
-    child: Title(
+    child: Row(
+      children:<Widget>[Title(
 
-        color: Colors.white,
-        child: Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: Text(
-              "Second Page",
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
+          color: Colors.white,
+          child: Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text(
+                "Second Page",
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
 fontStyle: FontStyle.italic
+              ),
             ),
-          ),
-        )
+          )
+      ),]
     ),
   ),
 ),
