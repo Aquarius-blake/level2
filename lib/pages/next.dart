@@ -19,11 +19,14 @@ backgroundColor: Colors.blue[200],
     child: Title(
 
         color: Colors.white,
-        child: Text(
-            "Second Page",
-          style: TextStyle(
-            fontWeight: FontWeight.bold,
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Text(
+              "Second Page",
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
 fontStyle: FontStyle.italic
+            ),
           ),
         )
     ),
