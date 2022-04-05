@@ -30,7 +30,7 @@ fontStyle: FontStyle.italic
 ),
       body: Column(
         children:<Widget> [
-
+Card()
         ],
       ),
     );
