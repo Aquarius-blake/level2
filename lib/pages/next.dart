@@ -64,7 +64,7 @@ Card(
                   fre="Press it once, you dummy";
                 }
                 if (cont>5){
-                  fre="";
+                  fre="Hey";
                 }
               });
           }
