@@ -13,6 +13,15 @@ class _nextState extends State<next> {
     return Scaffold(
 appBar: AppBar(
 backgroundColor: Colors.blue[200],
+  title: Title(
+      color: Colors.white,
+      child: Text(
+          "",
+        style: TextStyle(
+
+        ),
+      )
+  ),
 ),
     );
   }
