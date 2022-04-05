@@ -99,7 +99,8 @@ Text(
        onPressed: (){
          Navigator.pushNamed(context, '/next');
        },
-       child: Text("->"),
+       child: Icon(Icons.arrow_forward_ios_rounded),
+     
        ),
     );
   }
