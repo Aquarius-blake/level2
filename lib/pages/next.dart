@@ -60,6 +60,10 @@ Card(
             cont++;
               setState(() {
                 fre="Hey Idiot, fuck off";
+                if(cont>1){
+                  fre="Press it once you dummy";
+                }
+
               });
           }
       ),
