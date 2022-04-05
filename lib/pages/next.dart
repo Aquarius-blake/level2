@@ -20,7 +20,7 @@ backgroundColor: Colors.blue[200],
             "Second Page",
           style: TextStyle(
             fontWeight: FontWeight.bold,
-
+fontStyle: FontStyle.italic
           ),
         )
     ),
