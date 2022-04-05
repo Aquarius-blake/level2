@@ -1,6 +1,7 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/widgets.dart';
+import 'package:level2/pages/Another.dart';
 import 'package:level2/pages/next.dart';
 import 'Quote.dart';
 import 'package:flutter/material.dart';
@@ -10,6 +11,7 @@ void main() {
     home: Quotes() ,
     routes: {
       '/next': (context) => next(),
+      '/another':(context)=> Another(),
     }
   )
   );
