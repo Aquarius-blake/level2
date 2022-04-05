@@ -10,6 +10,8 @@ class next extends StatefulWidget {
 class _nextState extends State<next> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+
+    );
   }
 }
