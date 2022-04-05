@@ -19,7 +19,7 @@ backgroundColor: Colors.blue[200],
     child: Row(
       children:<Widget>[
         Icon(Icons.insert_emoticon),
-        SizedBox(width: 40,),
+        SizedBox(width: 60,),
         Title(
 
           color: Colors.white,
