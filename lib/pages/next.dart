@@ -35,7 +35,10 @@ fontStyle: FontStyle.italic
         children:<Widget> [
 Card(
   margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
-  child: Text("Hello World"),
+  child: Padding(
+    padding: const EdgeInsets.all(8.0),
+    child: Text("Hello World"),
+  ),
   elevation: 5.0,
 )
         ],
