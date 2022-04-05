@@ -6,7 +6,7 @@ class Another extends StatefulWidget {
   @override
   State<Another> createState() => _AnotherState();
 }
-String fre="Hello Idiot";
+
 class _AnotherState extends State<Another> {
   @override
   Widget build(BuildContext context) {
