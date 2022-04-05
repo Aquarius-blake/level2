@@ -56,6 +56,7 @@ Card(
         ],
       ),
       floatingActionButton: FloatingActionButton(
+        child: Icon(Icons.add),
           onPressed: (){
             cont++;
               setState(() {
