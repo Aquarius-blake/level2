@@ -19,6 +19,7 @@ backgroundColor: Colors.blue[200],
         child: Text(
             "Second Page",
           style: TextStyle(
+            fontWeight: FontWeight.bold,
 
           ),
         )
