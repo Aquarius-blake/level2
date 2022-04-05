@@ -11,7 +11,9 @@ class _AnotherState extends State<Another> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
+appBar: AppBar(
+  backgroundColor: Colors.blue[200],
+),
     );
   }
 }
