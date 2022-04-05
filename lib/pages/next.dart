@@ -11,7 +11,9 @@ class _nextState extends State<next> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+appBar: AppBar(
 
+),
     );
   }
 }
