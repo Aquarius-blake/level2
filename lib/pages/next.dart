@@ -30,7 +30,9 @@ fontStyle: FontStyle.italic
 ),
       body: Column(
         children:<Widget> [
-Card()
+Card(
+  child: Text("Hello World"),
+)
         ],
       ),
     );
