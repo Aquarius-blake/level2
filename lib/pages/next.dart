@@ -65,6 +65,7 @@ Card(
                 }
                 if (cont>5){
                   fre="Hey, are you really that stupid?";
+                  cont=0;
                 }
               });
           }
