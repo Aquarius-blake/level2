@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:level2/pages/Another.dart';
-import 'package:level2/main.dart';
+
 
 class next extends StatefulWidget {
   const next({Key? key}) : super(key: key);
