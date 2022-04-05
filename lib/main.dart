@@ -94,7 +94,9 @@ Text(
 
       ) ,
    floatingActionButton: FloatingActionButton(
-       onPressed: (){},
+       onPressed: (){
+         Navigator.pushNamed(context, '/next')
+       },
        child: Text("->"),
        ),
     );
