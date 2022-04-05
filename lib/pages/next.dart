@@ -60,9 +60,10 @@ Card(
           onPressed: (){
             cont++;
               setState(() {
-                fre="Hey Idiot, fuck off";
+                fre="Press it once, you dummy";
                 if(cont>1){
-                  fre="Press it once, you dummy";
+
+                  fre="Hey Idiot, fuck off";
                 }
                 if (cont>5){
                   fre="Hey, are you really that stupid?";
