@@ -17,7 +17,7 @@ backgroundColor: Colors.blue[200],
     child: Title(
         color: Colors.white,
         child: Text(
-            "",
+            "Second Page",
           style: TextStyle(
 
           ),
