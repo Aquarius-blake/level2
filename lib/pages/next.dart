@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/widgets.dart';
 
-import 'Quote.dart';
+import 'package:level2/Quote.dart';
 import 'package:flutter/material.dart';
 
 
