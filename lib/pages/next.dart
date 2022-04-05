@@ -9,7 +9,8 @@ class next extends StatefulWidget {
 }
 
 class _nextState extends State<next> {
-  String fre="Hello Idiot";
+  String fre="Hello world";
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -48,7 +49,7 @@ Card(
   margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
   child: Padding(
     padding: const EdgeInsets.all(8.0),
-    child: Text("Hello World"),
+    child: Text("$fre"),
   ),
   elevation: 5.0,
 )
