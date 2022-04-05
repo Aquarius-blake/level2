@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class Another extends StatefulWidget {
   const Another({Key? key}) : super(key: key);
-
+String fre="Hello Idiot";
   @override
   State<Another> createState() => _AnotherState();
 }
