@@ -1,14 +1,18 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/widgets.dart';
-
+import 'package:level2/pages/next.dart';
 import 'Quote.dart';
 import 'package:flutter/material.dart';
 
 void main() {
   runApp(MaterialApp(
     home: Quotes() ,
-  ));
+    routes: {
+      '/next': (context) => next(),
+    }
+  )
+  );
 }
 
 class Quotes extends StatefulWidget {
