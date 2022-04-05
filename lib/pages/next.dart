@@ -11,6 +11,7 @@ class _nextState extends State<next> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.amber,
 appBar: AppBar(
 
 backgroundColor: Colors.blue[200],
@@ -28,7 +29,9 @@ fontStyle: FontStyle.italic
     ),
   ),
 ),
-      body: Column(
+      body:
+
+      Column(
         children:<Widget> [
 Card(
   child: Text("Hello World"),
