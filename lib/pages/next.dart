@@ -12,7 +12,7 @@ class _nextState extends State<next> {
   Widget build(BuildContext context) {
     return Scaffold(
 appBar: AppBar(
-
+backgroundColor: Colors.blue[200],
 ),
     );
   }
