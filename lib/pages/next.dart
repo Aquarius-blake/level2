@@ -44,12 +44,18 @@ backgroundColor: Colors.blue[200],
       body:
 
       Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children:<Widget> [
 Card(
+
   margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
+
   child: Padding(
-    padding: const EdgeInsets.all(8.0),
-    child: Text("$fre"),
+    padding: const EdgeInsets.all(12.0),
+    child: Text(
+        "$fre",
+
+    ),
   ),
   elevation: 5.0,
 )
