@@ -10,75 +10,73 @@ class next extends StatefulWidget {
 
 class _nextState extends State<next> {
   String fre="Hello, Pls tap on  the button below to connect";
-int cont=0;
+  int cont=0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.yellow[200],
-appBar: AppBar(
+      appBar: AppBar(
 
-backgroundColor: Colors.blue[200],
-  title: Center(
-    child: Row(
+        backgroundColor: Colors.blue[200],
+        title: Center(
+          child: Row(
 
-      children:<Widget>[
-        Icon(Icons.insert_emoticon),
-        SizedBox(width: 60,),
-        Title(
+              children:<Widget>[
+                Icon(Icons.insert_emoticon),
+                SizedBox(width: 60,),
+                Title(
 
-          color: Colors.white,
-          child: Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Text(
-                "Second Page",
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
+                    color: Colors.white,
+                    child: Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Text(
+                        "Second Page",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
 
-              ),
-            ),
-          )
-      ),]
-    ),
-  ),
-),
+                        ),
+                      ),
+                    )
+                ),]
+          ),
+        ),
+      ),
       body:
 
       Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children:<Widget> [
-Card(
+          Card(
 
-  margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
+            margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
 
-  child: Padding(
-    padding: const EdgeInsets.all(12.0),
-    child: Text(
-        "$fre",
+            child: Padding(
+              padding: const EdgeInsets.all(12.0),
+              child: Text(
+                "$fre",
 
-    ),
-  ),
-  elevation: 5.0,
-)
+              ),
+            ),
+            elevation: 5.0,
+          )
         ],
       ),
       floatingActionButton: FloatingActionButton(
-        child: Icon(Icons.wifi),
+          child: Icon(Icons.wifi),
           onPressed: (){
             cont++;
-              setState(() {
-                fre="Press it once, you dummy";
-                if(cont>1){
+            setState(() {
+              fre="Press it once, you dummy";
+              if(cont>1){
 
-                  fre="Hey Idiot, fuck off";
-                }
-                if (cont>5){
-                  fre="Hey, are you really that stupid?";
-                  cont=0;
-                }
-                Card(
-                  child: Text("hey"),
-                );
-              });
+                fre="Hey Idiot, fuck off";
+              }
+              if (cont>5){
+                fre="Hey, are you really that stupid?";
+                cont=0;
+              }
+
+            });
           }
       ),
     );
