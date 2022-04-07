@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 
+Widget getwid(){
+return  AlertDialog(
+    content: Text("juio"),
+  );
+}
 
 class next extends StatefulWidget {
   const next({Key? key}) : super(key: key);
@@ -58,14 +63,17 @@ class _nextState extends State<next> {
               ),
             ),
             elevation: 5.0,
-          )
+          ),
+
         ],
       ),
       floatingActionButton: FloatingActionButton(
           child: Icon(Icons.wifi),
           onPressed: (){
             cont++;
+
             setState(() {
+              getwid();
               fre="Press it once, you dummy";
               if(cont>1){
 
@@ -73,9 +81,7 @@ class _nextState extends State<next> {
               }
               if (cont>5){
                 fre="Hey, are you really that stupid?";
-                AlertDialog(
-                  content: Text("juio"),
-                );
+
                 cont=0;
               }
 
