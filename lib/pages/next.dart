@@ -17,7 +17,7 @@ class _nextState extends State<next> {
       return  AlertDialog(
         content: Text("juio"),
       );}
-    return Card();
+    return Container();
   }
   @override
   Widget build(BuildContext context) {
