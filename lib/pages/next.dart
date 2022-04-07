@@ -64,7 +64,7 @@ class _nextState extends State<next> {
             ),
             elevation: 5.0,
           ),
-
+getwid()
         ],
       ),
       floatingActionButton: FloatingActionButton(
@@ -73,7 +73,7 @@ class _nextState extends State<next> {
             cont++;
 
             setState(() {
-              getwid();
+
               fre="Press it once, you dummy";
               if(cont>1){
 
