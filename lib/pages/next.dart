@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
 
-Widget getwid(){
-return  AlertDialog(
-    content: Text("juio"),
-  );
-}
+
 
 class next extends StatefulWidget {
   const next({Key? key}) : super(key: key);
@@ -16,6 +12,13 @@ class next extends StatefulWidget {
 class _nextState extends State<next> {
   String fre="Hello, Pls tap on  the button below to connect";
   int cont=0;
+  Widget getwid(){
+    if (cont>1){
+      return  AlertDialog(
+        content: Text("juio"),
+      );}
+    return Card();
+  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -64,7 +67,9 @@ class _nextState extends State<next> {
             ),
             elevation: 5.0,
           ),
-getwid()
+
+  getwid()
+
         ],
       ),
       floatingActionButton: FloatingActionButton(
