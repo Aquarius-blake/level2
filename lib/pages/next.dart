@@ -75,6 +75,9 @@ Card(
                   fre="Hey, are you really that stupid?";
                   cont=0;
                 }
+                Card(
+                  child: Text("hey"),
+                );
               });
           }
       ),
