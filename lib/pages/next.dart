@@ -73,6 +73,9 @@ class _nextState extends State<next> {
               }
               if (cont>5){
                 fre="Hey, are you really that stupid?";
+                AlertDialog(
+                  content: Text("juio"),
+                );
                 cont=0;
               }
 
