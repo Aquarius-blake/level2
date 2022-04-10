@@ -68,7 +68,7 @@ class _nextState extends State<next> {
             elevation: 5.0,
           ),
 
-  getwid()
+
 
         ],
       ),
