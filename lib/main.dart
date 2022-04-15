@@ -91,7 +91,9 @@ class _QuotesState extends State<Quotes> {
                 ),
 
               ),
-onTap: (){},
+onTap: (){
+                Navigator.pushNamed(context, '/another');
+},
             )
           ],
         ),
