@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:level2/Quote.dart';
+import 'package:level2/main.dart';
 
 class Another extends StatefulWidget {
   const Another({Key? key}) : super(key: key);
@@ -9,6 +10,9 @@ class Another extends StatefulWidget {
 }
 
 class _AnotherState extends State<Another> {
+
+  List<Quote> Details=[];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
