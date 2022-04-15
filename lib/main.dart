@@ -34,6 +34,7 @@ class _QuotesState extends State<Quotes> {
     Quote(text: "Boys boys no be fam, nti mi diɛ mɛ allow cash-out ",author:" ~Judas Iscariot"),
     Quote(text: "Breast is life, Duna means power ",author:" ~Emmanuel Dikkoe"),
     Quote(text: "🤣🤣🤣🤣🤣🤣",author:" ~jackie"),
+    Quote(text: "🤣🤣🤣🤣🤣🤣",author:" ~jackie"),
   ];
   Widget qtemplate(Quote){
     return Card(
