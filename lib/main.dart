@@ -98,7 +98,7 @@ onTap: (){
                 Navigator.pushNamed(context, '/another');
 },
             ),
-            SizedBox(height: 10.0,),
+            SizedBox(height: 20.0,),
             ListTile(
               leading: Icon(Icons.build,color: Colors.black, size:50.0,),
               title: Text(
