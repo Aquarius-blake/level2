@@ -22,8 +22,11 @@ title: Title(color: Colors.white,
 ),
       ),
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
+
 Card(
+
 
 )
         ],
