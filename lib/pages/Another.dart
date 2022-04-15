@@ -60,7 +60,8 @@ class _AnotherState extends State<Another> {
             color: Colors.white,
             child: Text(
               "Profile"
-            )),
+            )
+        ),
         backgroundColor: Colors.blue[200],
       ),
       body: Column(
