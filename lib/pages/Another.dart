@@ -15,6 +15,7 @@ class _AnotherState extends State<Another> {
     Quote(text: "Dikkoe Emmanuel", author: "Name"),
     Quote(text: "GHA-3948501", author: "Card number"),
     Quote(text: "Male (Slightly Female)", author: "Gender"),
+    Quote(text: "5\'4", author: "Gender"),
   ];
 
   Widget temp(Quote){
