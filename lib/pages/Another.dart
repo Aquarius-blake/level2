@@ -16,6 +16,12 @@ class _AnotherState extends State<Another> {
     Quote(text: "GHA-3948501", author: "Card number"),
   ];
 
+  Widget temp(Quote){
+    return Card(
+
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
