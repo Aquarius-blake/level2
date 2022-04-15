@@ -83,7 +83,7 @@ class _QuotesState extends State<Quotes> {
 
         child: Column(
           children: <Widget>[
-            SizedBox(height: 80,),
+            SizedBox(height: 90,),
             ListTile(
               leading: Icon(Icons.person,color: Colors.black, size:50.0,),
               title: Text(
@@ -100,7 +100,7 @@ onTap: (){
                 Navigator.pushNamed(context, '/another');
 },
             ),
-            SizedBox(height: 20.0,),
+            SizedBox(height: 40.0,),
             ListTile(
               leading: Icon(Icons.settings,color: Colors.black, size:50.0,),
               title: Text(
