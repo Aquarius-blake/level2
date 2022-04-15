@@ -102,7 +102,7 @@ onTap: (){
             ListTile(
               leading: Icon(Icons.person,color: Colors.black, size:50.0,),
               title: Text(
-                "Profile",
+                "Something 1",
                 style: TextStyle(
                   fontSize: 18.0,
                   fontWeight: FontWeight.bold,
