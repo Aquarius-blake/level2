@@ -87,10 +87,11 @@ class _QuotesState extends State<Quotes> {
                   fontSize: 18.0,
                   fontWeight: FontWeight.bold,
                   fontStyle: FontStyle.italic,
+
                 ),
 
               ),
-
+onTap: (){},
             )
           ],
         ),
