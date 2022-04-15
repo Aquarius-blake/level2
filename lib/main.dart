@@ -80,7 +80,7 @@ class _QuotesState extends State<Quotes> {
           children: <Widget>[
             SizedBox(height: 40,),
             ListTile(
-              leading: Icon(Icons.airport_shuttle),
+              leading: Icon(Icons.airport_shuttle,color: Colors.white,),
 
             )
           ],
