@@ -14,6 +14,7 @@ class _AnotherState extends State<Another> {
   List<Quote> Details=[
     Quote(text: "Dikkoe Emmanuel", author: "Name"),
     Quote(text: "GHA-3948501", author: "Card number"),
+    Quote(text: "Fraud-Boy", author: "Occupation"),
     Quote(text: "Male (Slightly Female)", author: "Gender"),
     Quote(text: "5\'4", author: "Height"),
     Quote(text: "230 lbs", author: "Weight"),
