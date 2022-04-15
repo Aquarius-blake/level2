@@ -113,13 +113,15 @@ onTap: (){
           ),
         ),
       ),
-      body:Column(
+      body:SingleChildScrollView(
+        child: Column(
 
-        children: something.map((e) => qtemplate(e)
+          children: something.map((e) => qtemplate(e)
 
-        ).toList(),
+          ).toList(),
 
 
+        ),
       ) ,
       floatingActionButton: FloatingActionButton(
         onPressed: (){
