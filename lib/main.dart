@@ -77,11 +77,11 @@ class _QuotesState extends State<Quotes> {
         backgroundColor: Colors.yellowAccent,
 
         child: Column(
-children: <Widget>[
-ListTile(
+          children: <Widget>[
+            ListTile(
 
-)
-],
+            )
+          ],
         ),
       ),
       appBar: AppBar(
