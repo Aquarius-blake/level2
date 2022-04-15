@@ -11,7 +11,9 @@ class Another extends StatefulWidget {
 
 class _AnotherState extends State<Another> {
 
-  List<Quote> Details=[];
+  List<Quote> Details=[
+    Quote(text: "Dikkoe Emmanuel", author: author)
+  ];
 
   @override
   Widget build(BuildContext context) {
