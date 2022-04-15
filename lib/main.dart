@@ -28,13 +28,15 @@ class Quotes extends StatefulWidget {
 class _QuotesState extends State<Quotes> {
 
   List<Quote> something=[
-    Quote(text: ")baa nanum y3 no d3 no, 3nfa bi da",author:" ~Adam"),
-    Quote(text: "Y3b3 soreeeee",author:" ~Lazarus"),
+    Quote(text: "ɔbaa nanum yɛ no dɛ no, ɛnfa bi da",author:" ~Adam"),
+    Quote(text: "Yɛbɛ sɔreeeee",author:" ~Lazarus"),
     Quote(text: "Fear Women",author:" ~Sampson"),
     Quote(text: "Boys boys no be fam, nti mi diɛ mɛ allow cash-out ",author:" ~Judas Iscariot"),
     Quote(text: "Breast is life, Duna means power ",author:" ~Emmanuel Dikkoe"),
+    Quote(text: "Wo sua na ɛnkɔ aa, Di baba ",author:" ~Albert Einstein"),
+    Quote(text: "The bigger the bust, the greater the force of attraction ",author:" ~Albert Einstein"),
     Quote(text: "🤣🤣🤣🤣🤣🤣",author:" ~jackie"),
-    Quote(text: "🤣🤣🤣🤣🤣🤣",author:" ~jackie"),
+
   ];
   Widget qtemplate(Quote){
     return Card(
