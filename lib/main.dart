@@ -75,8 +75,11 @@ class _QuotesState extends State<Quotes> {
       backgroundColor:Colors.yellowAccent[100] ,
       drawer: Drawer(
         backgroundColor: Colors.yellowAccent,
-        child: Column(
 
+        child: Column(
+children: <Widget>[
+
+],
         ),
       ),
       appBar: AppBar(
