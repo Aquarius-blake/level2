@@ -81,6 +81,9 @@ class _QuotesState extends State<Quotes> {
             SizedBox(height: 40,),
             ListTile(
               leading: Icon(Icons.airplanemode_active,color: Colors.black, size:50.0,),
+              title: Text(
+                "Profile"
+              ),
 
             )
           ],
