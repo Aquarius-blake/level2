@@ -25,12 +25,12 @@ class _nextState extends State<next> {
 
               children:<Widget>[
                 Icon(Icons.insert_emoticon),
-                SizedBox(width: 60,),
+                SizedBox(width: 50,),
                 Title(
 
                     color: Colors.white,
                     child: Padding(
-                      padding: const EdgeInsets.all(8.0),
+                      padding: const EdgeInsets.all(6.0),
                       child: Text(
                         "Second Page",
                         style: TextStyle(
