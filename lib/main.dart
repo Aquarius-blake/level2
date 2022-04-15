@@ -82,7 +82,11 @@ class _QuotesState extends State<Quotes> {
             ListTile(
               leading: Icon(Icons.person,color: Colors.black, size:50.0,),
               title: Text(
-                "Profile"
+                "Profile",
+                style: TextStyle(
+
+                ),
+
               ),
 
             )
