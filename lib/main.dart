@@ -79,7 +79,7 @@ class _QuotesState extends State<Quotes> {
     return Scaffold(
       backgroundColor:Colors.yellowAccent[100] ,
       drawer: Drawer(
-        backgroundColor: Colors.yellowAccent[100],
+        backgroundColor: Colors.yellowAccent[50],
 
         child: Column(
           children: <Widget>[
