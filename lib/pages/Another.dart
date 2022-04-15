@@ -16,7 +16,7 @@ class _AnotherState extends State<Another> {
     Quote(text: "GHA-3948501", author: "Card number"),
     Quote(text: "Fraud-Boy", author: "Occupation"),
     Quote(text: "Male (Slightly Female)", author: "Gender"),
-    Quote(text: "Male (Slightly Female)", author: "Gender"),
+    Quote(text: "African", author: "Race"),
     Quote(text: "5\'4", author: "Height"),
     Quote(text: "230 lbs", author: "Weight"),
     Quote(text: "-301", author: "IQ Level"),
