@@ -32,7 +32,7 @@ class _AnotherState extends State<Another> {
                 fontStyle: FontStyle.italic,
 
               ),
-              textAlign: TextAlign.end,
+              textAlign: TextAlign.start,
             ),
             SizedBox(height: 7.0,),
             Text(
