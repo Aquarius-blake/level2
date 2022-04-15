@@ -19,6 +19,7 @@ class _AnotherState extends State<Another> {
     Quote(text: "5\'4", author: "Height"),
     Quote(text: "230 lbs", author: "Weight"),
     Quote(text: "-301", author: "IQ Level"),
+    Quote(text: "\$7000", author: "Monthly Income"),
   ];
 
   Widget temp(Quote){
