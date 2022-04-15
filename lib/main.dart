@@ -73,7 +73,11 @@ Text(
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor:Colors.yellowAccent[100] ,
-      drawer: Drawer(),
+      drawer: Drawer(
+        child: Column(
+
+        ),
+      ),
       appBar: AppBar(
           backgroundColor: Colors.blue[300],
         title: Center(
