@@ -18,7 +18,35 @@ class _AnotherState extends State<Another> {
 
   Widget temp(Quote){
     return Card(
+      margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
+      child: Padding(
+        padding: const EdgeInsets.all(12.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: <Widget>[
+            Text(
+              Quote.text,
+              style: TextStyle(
+                fontSize: 20.0,
+                color: Colors.black,
+              ),
+            ),
+            SizedBox(height: 7.0,),
+            Text(
+              Quote.author,
+              style: TextStyle(
+                fontSize: 12.0,
+                color: Colors.black,
+                fontStyle: FontStyle.italic,
 
+              ),
+              textAlign: TextAlign.end,
+            )
+
+          ],
+        ),
+      ),
+      elevation: 5.0,
     );
   }
 
