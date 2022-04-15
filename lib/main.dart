@@ -86,7 +86,7 @@ class _QuotesState extends State<Quotes> {
                 style: TextStyle(
 fontSize: 15.0,
                   fontWeight: FontWeight.bold,
-
+fontStyle: FontStyle.italic,
                 ),
 
               ),
