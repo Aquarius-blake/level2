@@ -83,7 +83,7 @@ class _QuotesState extends State<Quotes> {
 
         child: Column(
           children: <Widget>[
-            SizedBox(height: 40,),
+            SizedBox(height: 70,),
             ListTile(
               leading: Icon(Icons.person,color: Colors.black, size:50.0,),
               title: Text(
