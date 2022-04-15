@@ -74,6 +74,7 @@ Text(
     return Scaffold(
       backgroundColor:Colors.yellowAccent[100] ,
       drawer: Drawer(
+backgroundColor: Colors.yellowAccent,
         child: Column(
 
         ),
