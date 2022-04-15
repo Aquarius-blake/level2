@@ -29,9 +29,10 @@ class _AnotherState extends State<Another> {
         backgroundColor: Colors.blue[200],
       ),
       body: Column(
-        children: [
 
-        ],
+        children: Details.map((e) => temp(e)
+
+        ).toList(),
       ),
 
     );
