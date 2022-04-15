@@ -3,6 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/widgets.dart';
 import 'package:level2/pages/Another.dart';
 import 'package:level2/pages/next.dart';
+import 'package:level2/pages/settings.dart';
 import 'Quote.dart';
 import 'package:flutter/material.dart';
 
@@ -12,6 +13,7 @@ void main() {
       routes: {
         '/next': (context) => next(),
         '/another':(context)=> Another(),
+        '/settings':(context)=>Settings(),
       }
   )
   );
@@ -100,7 +102,7 @@ onTap: (){
             ),
             SizedBox(height: 20.0,),
             ListTile(
-              leading: Icon(Icons.build,color: Colors.black, size:50.0,),
+              leading: Icon(Icons.settings,color: Colors.black, size:50.0,),
               title: Text(
                 "Settings",
                 style: TextStyle(
