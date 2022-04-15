@@ -58,8 +58,10 @@ class _AnotherState extends State<Another> {
       appBar: AppBar(
         title: Title(
             color: Colors.white,
-            child: Text(
-              "Profile"
+            child: Center(
+              child: Text(
+                "Profile"
+              ),
             )
         ),
         backgroundColor: Colors.blue[200],
