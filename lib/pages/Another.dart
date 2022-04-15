@@ -14,6 +14,9 @@ class _AnotherState extends State<Another> {
 appBar: AppBar(
   backgroundColor: Colors.blue[200],
 ),
+      body: Column(
+
+      ),
     );
   }
 }
