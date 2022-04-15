@@ -97,7 +97,23 @@ class _QuotesState extends State<Quotes> {
 onTap: (){
                 Navigator.pushNamed(context, '/another');
 },
-            )
+            ),
+            ListTile(
+              leading: Icon(Icons.person,color: Colors.black, size:50.0,),
+              title: Text(
+                "Profile",
+                style: TextStyle(
+                  fontSize: 18.0,
+                  fontWeight: FontWeight.bold,
+                  fontStyle: FontStyle.italic,
+
+                ),
+
+              ),
+              onTap: (){
+                Navigator.pushNamed(context, '/another');
+              },
+            ),
           ],
         ),
       ),
