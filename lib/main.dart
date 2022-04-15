@@ -114,7 +114,7 @@ onTap: (){
 
               ),
               onTap: (){
-                Navigator.pushNamed(context, '/another');
+                Navigator.pushNamed(context, '/settings');
               },
             ),
           ],
