@@ -21,6 +21,11 @@ title: Title(color: Colors.white,
     )
 ),
       ),
+      body: Column(
+        children: <Widget>[
+
+        ],
+      ),
     );
   }
 }
