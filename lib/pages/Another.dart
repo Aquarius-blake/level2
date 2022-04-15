@@ -62,6 +62,7 @@ class _AnotherState extends State<Another> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.yellowAccent[100],
       appBar: AppBar(
         title: Title(
             color: Colors.white,
