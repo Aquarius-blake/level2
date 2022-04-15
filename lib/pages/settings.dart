@@ -14,8 +14,10 @@ class _SettingsState extends State<Settings> {
       appBar: AppBar(
         backgroundColor: Colors.lightBlueAccent,
 title: Title(color: Colors.white,
-    child: Text(
-        "Setings",
+    child: Center(
+      child: Text(
+          "Settings",
+      ),
     )
 ),
       ),
