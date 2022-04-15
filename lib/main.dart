@@ -73,6 +73,7 @@ Text(
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor:Colors.yellowAccent[100] ,
+      drawer: Drawer(),
       appBar: AppBar(
           backgroundColor: Colors.blue[300],
         title: Center(
@@ -89,6 +90,7 @@ Text(
         ),
       ),
       body:Column(
+
         children: something.map((e) => qtemplate(e)
 
           ).toList(),
@@ -102,6 +104,7 @@ Text(
        child: Icon(Icons.arrow_forward_ios_rounded),
      
        ),
+
     );
   }
 }
