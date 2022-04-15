@@ -100,9 +100,9 @@ onTap: (){
             ),
             SizedBox(height: 10.0,),
             ListTile(
-              leading: Icon(Icons.person,color: Colors.black, size:50.0,),
+              leading: Icon(Icons.build,color: Colors.black, size:50.0,),
               title: Text(
-                "Something 1",
+                "Settings",
                 style: TextStyle(
                   fontSize: 18.0,
                   fontWeight: FontWeight.bold,
