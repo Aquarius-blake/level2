@@ -25,14 +25,6 @@ class _AnotherState extends State<Another> {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             Text(
-              Quote.text,
-              style: TextStyle(
-                fontSize: 20.0,
-                color: Colors.black,
-              ),
-            ),
-            SizedBox(height: 7.0,),
-            Text(
               Quote.author,
               style: TextStyle(
                 fontSize: 12.0,
@@ -41,7 +33,17 @@ class _AnotherState extends State<Another> {
 
               ),
               textAlign: TextAlign.end,
-            )
+            ),
+            SizedBox(height: 7.0,),
+            Text(
+              Quote.text,
+              style: TextStyle(
+                fontSize: 20.0,
+                color: Colors.black,
+              ),
+            ),
+
+
 
           ],
         ),
