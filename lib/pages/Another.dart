@@ -12,7 +12,7 @@ class Another extends StatefulWidget {
 class _AnotherState extends State<Another> {
 
   List<Quote> Details=[
-    Quote(text: "Dikkoe Emmanuel", author: author)
+    Quote(text: "Dikkoe Emmanuel", author: "Name")
   ];
 
   @override
