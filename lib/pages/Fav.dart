@@ -12,7 +12,13 @@ class _FavState extends State<Fav> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+title: Title(color: Colors.white, child: Text(
+    "Favourites",
+  style: TextStyle(
 
+  ),
+)
+),
       ),
     );
   }
