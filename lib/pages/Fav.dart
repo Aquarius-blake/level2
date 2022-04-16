@@ -17,7 +17,8 @@ class _FavState extends State<Fav> {
 title: Title(color: Colors.white, child: Text(
     "Favourites",
   style: TextStyle(
-
+fontWeight: FontWeight.bold,
+    fontStyle: FontStyle.italic,
   ),
 )
 ),
