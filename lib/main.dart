@@ -119,6 +119,23 @@ onTap: (){
                 Navigator.pushNamed(context, '/settings');
               },
             ),
+            SizedBox(height: 40.0,),
+            ListTile(
+              leading: Icon(Icons.heart_broken,color: Colors.black, size:50.0,),
+              title: Text(
+                "Favourites",
+                style: TextStyle(
+                  fontSize: 18.0,
+                  fontWeight: FontWeight.bold,
+                  fontStyle: FontStyle.italic,
+
+                ),
+
+              ),
+              onTap: (){
+                Navigator.pushNamed(context, '/fsv');
+              },
+            ),
           ],
         ),
       ),
