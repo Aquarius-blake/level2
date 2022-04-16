@@ -2,6 +2,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/widgets.dart';
 import 'package:level2/pages/Another.dart';
+import 'package:level2/pages/Fav.dart';
 import 'package:level2/pages/next.dart';
 import 'package:level2/pages/settings.dart';
 import 'Quote.dart';
@@ -14,6 +15,7 @@ void main() {
         '/next': (context) => next(),
         '/another':(context)=> Another(),
         '/settings':(context)=>Settings(),
+        '/fav':(context)=>Fav(),
       }
   )
   );
