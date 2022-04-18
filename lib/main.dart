@@ -180,7 +180,12 @@ Divider(
   color: Colors.black,
   thickness: 3,
 ),
-              Text("Blake ind")
+              Text(
+                  "Blake ind",
+                style: TextStyle(
+
+                ),
+              )
 
             ],
           ),
