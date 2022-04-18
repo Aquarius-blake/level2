@@ -82,17 +82,12 @@ class _QuotesState extends State<Quotes> {
       backgroundColor:Colors.yellowAccent[100] ,
       drawer: Drawer(
         backgroundColor: Colors.white38,
-
         child: Column(
           children: <Widget>[
             DrawerHeader(
-
                 child: ListView(
-
                   children: [
-
                     UserAccountsDrawerHeader(
-
                       accountName: Text("Someone"),
                       accountEmail: Text("Someone@hu.com"),
                       currentAccountPicture: CircleAvatar(
