@@ -68,6 +68,7 @@ class _nextState extends State<next> {
         ],
       ),
       floatingActionButton: FloatingActionButton(
+         backgroundColor: Colors.blue[200],
           child: Icon(Icons.wifi),
           onPressed: (){
             cont++;
