@@ -93,7 +93,7 @@ class _QuotesState extends State<Quotes> {
                             accountEmail: Text("Someone@hu.com"),
                           currentAccountPicture: CircleAvatar(
                             child: ClipOval(
-
+                                child: Image(image: image),
                             ) ,
                           ),
                         )
