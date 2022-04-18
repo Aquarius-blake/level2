@@ -14,13 +14,19 @@ class _FavState extends State<Fav> {
       backgroundColor: Colors.yellowAccent[100],
       appBar: AppBar(
         backgroundColor: Colors.blueAccent[100],
-title: Title(color: Colors.white, child: Text(
-    "Favourites",
+title: Title(
+    color: Colors.white,
+    child: Row(
+      children:<Widget>[
+        Text(
+      "Favourites",
   style: TextStyle(
 fontWeight: FontWeight.bold,
-    fontStyle: FontStyle.italic,
+      fontStyle: FontStyle.italic,
   ),
-)
+),
+   ]
+    )
 ),
       ),
     );
