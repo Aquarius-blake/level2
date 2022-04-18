@@ -126,6 +126,24 @@ class _QuotesState extends State<Quotes> {
               ListTile(
                 leading: Icon(Icons.settings,color: Colors.black, size:50.0,),
                 title: Text(
+                  "Something",
+                  style: TextStyle(
+                    fontSize: 18.0,
+                    fontWeight: FontWeight.bold,
+                    fontStyle: FontStyle.italic,
+
+                  ),
+
+                ),
+                onTap: (){
+                  Navigator.pushNamed(context, '/settings');
+                },
+              ),
+
+              SizedBox(height: 40.0,),
+              ListTile(
+                leading: Icon(Icons.settings,color: Colors.black, size:50.0,),
+                title: Text(
                   "Settings",
                   style: TextStyle(
                     fontSize: 18.0,
