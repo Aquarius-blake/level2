@@ -85,6 +85,13 @@ class _QuotesState extends State<Quotes> {
 
         child: Column(
           children: <Widget>[
+            DrawerHeader(
+                child: ListView(
+                  children: [
+
+                  ],
+                )
+            ),
             SizedBox(height: 90,),
             ListTile(
               leading: Icon(Icons.person,color: Colors.black, size:50.0,),
