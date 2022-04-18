@@ -207,7 +207,7 @@ class _QuotesState extends State<Quotes> {
                 style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
-                    color: Colors.yellowAccent,
+                    color: Colors.yellowAccent[100],
                   fontStyle: FontStyle.italic,
                 ),
               )
