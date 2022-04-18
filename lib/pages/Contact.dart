@@ -12,6 +12,7 @@ class _ContactState extends State<Contact> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
 appBar: AppBar(
 title: Title(
     color: Colors.blueAccent,
@@ -20,7 +21,8 @@ title: Title(
 Icon(Icons.contact_page),
         Text("Contact Info"),
       ],
-    )
+    ),
+
 ),
 ),
     );

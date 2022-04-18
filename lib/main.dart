@@ -2,6 +2,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/widgets.dart';
 import 'package:level2/pages/Another.dart';
+import 'package:level2/pages/Contact.dart';
 import 'package:level2/pages/Fav.dart';
 import 'package:level2/pages/next.dart';
 import 'package:level2/pages/settings.dart';
@@ -16,6 +17,7 @@ void main() {
         '/another':(context)=> Another(),
         '/settings':(context)=>Settings(),
         '/fav':(context)=>Fav(),
+        '/cont':(context)=>Contact(),
       }
   )
   );
