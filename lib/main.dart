@@ -91,7 +91,11 @@ class _QuotesState extends State<Quotes> {
           child: Column(
             children: <Widget>[
               DrawerHeader(
-                child: Text("trese"),
+                child: Column(
+                  children: [
+
+                  ],
+                ),
               ),
               SizedBox(height: 10,),
               ListTile(
