@@ -88,7 +88,7 @@ class _QuotesState extends State<Quotes> {
               DrawerHeader(
               child: Text("trese"),
               ),
-              SizedBox(height: 30,),
+              SizedBox(height: 10,),
               ListTile(
                 leading: Icon(Icons.person,color: Colors.black, size:50.0,),
                 title: Text(
