@@ -124,9 +124,9 @@ class _QuotesState extends State<Quotes> {
               ),
               SizedBox(height: 40.0,),
               ListTile(
-                leading: Icon(Icons.settings,color: Colors.black, size:50.0,),
+                leading: Icon(Icons.contact_page,color: Colors.black, size:50.0,),
                 title: Text(
-                  "Something",
+                  "Contact Info",
                   style: TextStyle(
                     fontSize: 18.0,
                     fontWeight: FontWeight.bold,
