@@ -76,6 +76,7 @@ class _QuotesState extends State<Quotes> {
         ),
       ),
       elevation: 8.0,
+      shadowColor: Colors.blueAccent,
     );
   }
 
