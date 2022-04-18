@@ -19,6 +19,7 @@ title: Title(
     child: Row(
       children:<Widget>[
         Icon(Icons.heart_broken_sharp),
+        SizedBox(width: 10,),
         Text(
       "Favourites",
   style: TextStyle(
