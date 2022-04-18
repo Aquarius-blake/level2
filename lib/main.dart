@@ -86,7 +86,7 @@ class _QuotesState extends State<Quotes> {
           child: Column(
             children: <Widget>[
               DrawerHeader(
-              child: Text("trese"),
+                child: Text("trese"),
               ),
               SizedBox(height: 10,),
               ListTile(
@@ -174,18 +174,18 @@ class _QuotesState extends State<Quotes> {
                   Navigator.pushNamed(context, '/settings');
                 },
               ),
-SizedBox(height: 20,),
-Divider(
-  height: 40,
-  color: Colors.black,
-  thickness: 3,
-),
+              SizedBox(height: 20,),
+              Divider(
+                height: 40,
+                color: Colors.black,
+                thickness: 3,
+              ),
               Text(
-                  "Blake ind",
+                "Blake ind",
                 style: TextStyle(
-fontSize: 20,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.yellowAccent
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.yellowAccent
                 ),
               )
 
