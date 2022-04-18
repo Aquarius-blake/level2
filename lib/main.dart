@@ -95,7 +95,7 @@ class _QuotesState extends State<Quotes> {
                   children: [
 CircleAvatar(
   backgroundImage: AssetImage('Assets/9.jpg'),
-  radius: 40.0,
+  radius: 50.0,
 )
                   ],
                 ),
