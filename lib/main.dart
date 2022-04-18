@@ -215,7 +215,7 @@ CircleAvatar(
                 style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
-                    color: Colors.yellowAccent[100],
+                    color: Colors.orangeAccent,
                   fontStyle: FontStyle.italic,
                 ),
               ),
