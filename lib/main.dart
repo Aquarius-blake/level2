@@ -214,7 +214,7 @@ CircleAvatar(
                 "Powered By Blake Industries",
                 style: TextStyle(
                     fontSize: 20,
-
+                    fontWeight: FontWeight.bold,
                     color: Colors.orangeAccent,
                   fontStyle: FontStyle.italic,
                 ),
