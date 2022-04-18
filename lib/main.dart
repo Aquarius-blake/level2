@@ -183,7 +183,8 @@ Divider(
               Text(
                   "Blake ind",
                 style: TextStyle(
-
+fontSize: 20,
+                  fontWeight: FontWeight.bold
                 ),
               )
 
