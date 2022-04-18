@@ -16,10 +16,10 @@ class _nextState extends State<next> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.yellow[200],
+      backgroundColor: Colors.white,
       appBar: AppBar(
 
-        backgroundColor: Colors.blue[200],
+        backgroundColor: Colors.blue[300],
         title: Center(
           child: Row(
 
