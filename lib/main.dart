@@ -87,7 +87,7 @@ class _QuotesState extends State<Quotes> {
     return Scaffold(
       backgroundColor:Colors.white,
       drawer: Drawer(
-        backgroundColor: Colors.white38,
+        backgroundColor: Colors.white54,
         child: SingleChildScrollView(
           child: Column(
             children: <Widget>[
