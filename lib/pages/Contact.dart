@@ -13,7 +13,14 @@ class _ContactState extends State<Contact> {
   Widget build(BuildContext context) {
     return Scaffold(
 appBar: AppBar(
+title: Title(
+    color: Colors.blueAccent,
+    child: Row(
+      children: [
 
+      ],
+    )
+),
 ),
     );
   }
