@@ -178,7 +178,7 @@ Divider(
   height: 60,
   color: Colors.white38,
 ),
-              Text("")
+              Text("Blake ind")
 
             ],
           ),
