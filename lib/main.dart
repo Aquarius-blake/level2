@@ -154,7 +154,7 @@ CircleAvatar(
               ),
               SizedBox(height: 40.0,),
               ListTile(
-                leading: Icon(Icons.settings,color: Colors.black, size:50.0,),
+                leading: Icon(Icons.checkroom_rounded,color: Colors.black, size:50.0,),
                 title: Text(
                   "Extra",
                   style: TextStyle(
