@@ -174,7 +174,7 @@ class _QuotesState extends State<Quotes> {
                   Navigator.pushNamed(context, '/settings');
                 },
               ),
-              SizedBox(height: 20,),
+              SizedBox(height: 30,),
               Divider(
                 height: 40,
                 color: Colors.black,
