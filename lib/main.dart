@@ -82,64 +82,66 @@ class _QuotesState extends State<Quotes> {
       backgroundColor:Colors.yellowAccent[100] ,
       drawer: Drawer(
         backgroundColor: Colors.white38,
-        child: Column(
-          children: <Widget>[
-            DrawerHeader(
-            child: Text("trese"),
-            ),
-            SizedBox(height: 90,),
-            ListTile(
-              leading: Icon(Icons.person,color: Colors.black, size:50.0,),
-              title: Text(
-                "Profile",
-                style: TextStyle(
-                  fontSize: 18.0,
-                  fontWeight: FontWeight.bold,
-                  fontStyle: FontStyle.italic,
+        child: SingleChildScrollView(
+          child: Column(
+            children: <Widget>[
+              DrawerHeader(
+              child: Text("trese"),
+              ),
+              SizedBox(height: 90,),
+              ListTile(
+                leading: Icon(Icons.person,color: Colors.black, size:50.0,),
+                title: Text(
+                  "Profile",
+                  style: TextStyle(
+                    fontSize: 18.0,
+                    fontWeight: FontWeight.bold,
+                    fontStyle: FontStyle.italic,
+
+                  ),
 
                 ),
-
+                onTap: (){
+                  Navigator.pushNamed(context, '/another');
+                },
               ),
-              onTap: (){
-                Navigator.pushNamed(context, '/another');
-              },
-            ),
-            SizedBox(height: 40.0,),
-            ListTile(
-              leading: Icon(Icons.heart_broken,color: Colors.black, size:50.0,),
-              title: Text(
-                "Favourites",
-                style: TextStyle(
-                  fontSize: 18.0,
-                  fontWeight: FontWeight.bold,
-                  fontStyle: FontStyle.italic,
+              SizedBox(height: 40.0,),
+              ListTile(
+                leading: Icon(Icons.heart_broken,color: Colors.black, size:50.0,),
+                title: Text(
+                  "Favourites",
+                  style: TextStyle(
+                    fontSize: 18.0,
+                    fontWeight: FontWeight.bold,
+                    fontStyle: FontStyle.italic,
+
+                  ),
 
                 ),
-
+                onTap: (){
+                  Navigator.pushNamed(context, '/fav');
+                },
               ),
-              onTap: (){
-                Navigator.pushNamed(context, '/fav');
-              },
-            ),
-            SizedBox(height: 40.0,),
-            ListTile(
-              leading: Icon(Icons.settings,color: Colors.black, size:50.0,),
-              title: Text(
-                "Settings",
-                style: TextStyle(
-                  fontSize: 18.0,
-                  fontWeight: FontWeight.bold,
-                  fontStyle: FontStyle.italic,
+              SizedBox(height: 40.0,),
+              ListTile(
+                leading: Icon(Icons.settings,color: Colors.black, size:50.0,),
+                title: Text(
+                  "Settings",
+                  style: TextStyle(
+                    fontSize: 18.0,
+                    fontWeight: FontWeight.bold,
+                    fontStyle: FontStyle.italic,
+
+                  ),
 
                 ),
-
+                onTap: (){
+                  Navigator.pushNamed(context, '/settings');
+                },
               ),
-              onTap: (){
-                Navigator.pushNamed(context, '/settings');
-              },
-            ),
 
-          ],
+            ],
+          ),
         ),
       ),
       appBar: AppBar(
