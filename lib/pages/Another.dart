@@ -25,7 +25,7 @@ class _AnotherState extends State<Another> {
 
   Widget temp(Quote){
     return Card(
-      color: Colors.blue[100],
+      color: Colors.blue[200],
       margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
       child: Padding(
         padding: const EdgeInsets.all(12.0),
@@ -57,7 +57,7 @@ class _AnotherState extends State<Another> {
         ),
       ),
       elevation: 8.0,
-      shadowColor: Colors.blue[200],
+      shadowColor: Colors.blueAccent,
     );
   }
 
