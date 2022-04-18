@@ -50,7 +50,7 @@ class _nextState extends State<next> {
         children:<Widget> [
           Card(
             color: Colors.blue[100],
-shadowColor: Colors.blue[200],
+            shadowColor: Colors.blue[200],
             margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
 
             child: Padding(
