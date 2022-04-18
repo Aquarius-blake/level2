@@ -57,7 +57,7 @@ class _QuotesState extends State<Quotes> {
               Quote.text,
               style: TextStyle(
                 fontSize: 20.0,
-                color: Colors.white,
+                color: Colors.black54,
               ),
             ),
             SizedBox(height: 7.0,),
@@ -65,7 +65,7 @@ class _QuotesState extends State<Quotes> {
               Quote.author,
               style: TextStyle(
                 fontSize: 12.0,
-                color: Colors.white,
+                color: Colors.black54,
                 fontStyle: FontStyle.italic,
 
               ),
