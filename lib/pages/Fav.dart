@@ -13,7 +13,7 @@ class _FavState extends State<Fav> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: Colors.blueAccent[100],
+        backgroundColor: Colors.blue[300],
 title: Title(
     color: Colors.white,
     child: Row(
