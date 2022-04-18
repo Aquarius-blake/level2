@@ -82,7 +82,7 @@ class _QuotesState extends State<Quotes> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor:Colors.yellowAccent[100] ,
+      backgroundColor:Colors.white,
       drawer: Drawer(
         backgroundColor: Colors.white38,
         child: SingleChildScrollView(
