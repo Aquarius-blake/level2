@@ -139,6 +139,24 @@ class _QuotesState extends State<Quotes> {
                   Navigator.pushNamed(context, '/settings');
                 },
               ),
+              SizedBox(height: 40.0,),
+              ListTile(
+                leading: Icon(Icons.question_mark,color: Colors.black, size:50.0,),
+                title: Text(
+                  "FAQs",
+                  style: TextStyle(
+                    fontSize: 18.0,
+                    fontWeight: FontWeight.bold,
+                    fontStyle: FontStyle.italic,
+
+                  ),
+
+                ),
+                onTap: (){
+                  Navigator.pushNamed(context, '/settings');
+                },
+              ),
+
 
             ],
           ),
