@@ -25,6 +25,7 @@ class _AnotherState extends State<Another> {
 
   Widget temp(Quote){
     return Card(
+      color: Colors.blue[100],
       margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
       child: Padding(
         padding: const EdgeInsets.all(12.0),
@@ -55,14 +56,15 @@ class _AnotherState extends State<Another> {
           ],
         ),
       ),
-      elevation: 5.0,
+      elevation: 8.0,
+      shadowColor: Colors.blue[200],
     );
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.yellowAccent[100],
+      backgroundColor: Colors.white,
       appBar: AppBar(
         title: Title(
             color: Colors.white,
@@ -72,7 +74,7 @@ class _AnotherState extends State<Another> {
               ),
             )
         ),
-        backgroundColor: Colors.blue[200],
+        backgroundColor: Colors.blue[300],
       ),
       body: SingleChildScrollView(
         child: Column(
