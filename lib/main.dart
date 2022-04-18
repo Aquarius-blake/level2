@@ -184,7 +184,8 @@ Divider(
                   "Blake ind",
                 style: TextStyle(
 fontSize: 20,
-                  fontWeight: FontWeight.bold
+                  fontWeight: FontWeight.bold,
+                  color: Colors.yellowAccent
                 ),
               )
 
