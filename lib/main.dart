@@ -46,7 +46,7 @@ class _QuotesState extends State<Quotes> {
   ];
   Widget qtemplate(Quote){
     return Card(
-      color: Colors.blue[300],
+      color: Colors.blue[200],
       margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
       child: Padding(
         padding: const EdgeInsets.all(12.0),
