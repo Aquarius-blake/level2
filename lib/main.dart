@@ -210,8 +210,8 @@ class _QuotesState extends State<Quotes> {
                     color: Colors.yellowAccent[100],
                   fontStyle: FontStyle.italic,
                 ),
-              )
-
+              ),
+SizedBox(height: 20.0,)
             ],
           ),
         ),
