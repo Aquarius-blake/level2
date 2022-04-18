@@ -19,6 +19,7 @@ title: Title(
     child: Row(
       children: [
 Icon(Icons.contact_page),
+        SizedBox(width: 10,),
         Text("Contact Info"),
       ],
     ),
