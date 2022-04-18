@@ -75,7 +75,7 @@ class _QuotesState extends State<Quotes> {
           ],
         ),
       ),
-      elevation: 5.0,
+      elevation: 8.0,
     );
   }
 
