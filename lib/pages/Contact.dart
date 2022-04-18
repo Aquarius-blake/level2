@@ -13,19 +13,19 @@ class _ContactState extends State<Contact> {
   Widget build(BuildContext context) {
     return Scaffold(
 
-appBar: AppBar(
-title: Title(
-    color: Colors.blueAccent,
-    child: Row(
-      children: [
-Icon(Icons.contact_page),
-        SizedBox(width: 10,),
-        Text("Contact Info"),
-      ],
-    ),
+      appBar: AppBar(
+        title: Title(
+          color: Colors.blueAccent,
+          child: Row(
+            children: [
+              Icon(Icons.contact_page),
+              SizedBox(width: 10,),
+              Text("Contact Info"),
+            ],
+          ),
 
-),
-),
+        ),
+      ),
     );
   }
 }
