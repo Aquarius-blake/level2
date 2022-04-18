@@ -82,8 +82,9 @@ class _nextState extends State<next> {
               }
               if (cont>5){
                 fre="Hey, are you really that stupid?";
+                if(cont>6){
+                cont=0;}
 
-                cont=0;
               }
 
             });
