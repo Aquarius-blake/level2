@@ -32,7 +32,7 @@ class _nextState extends State<next> {
                     child: Padding(
                       padding: const EdgeInsets.all(6.0),
                       child: Text(
-                        "Second Page",
+                        "Extra",
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
 
