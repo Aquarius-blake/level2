@@ -203,7 +203,7 @@ class _QuotesState extends State<Quotes> {
                 thickness: 3,
               ),
               Text(
-                "Blake ind",
+                "Powered By Blake Industries",
                 style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
