@@ -88,7 +88,15 @@ class _QuotesState extends State<Quotes> {
             DrawerHeader(
                 child: ListView(
                   children: [
-                        UserAccountsDrawerHeader(accountName: Text("Someone"), accountEmail: Text("Someone@hu.com"))
+                        UserAccountsDrawerHeader(
+                            accountName: Text("Someone"),
+                            accountEmail: Text("Someone@hu.com"),
+                          currentAccountPicture: CircleAvatar(
+                            child: ClipOval(
+
+                            ) ,
+                          ),
+                        )
                   ],
                 )
             ),
