@@ -17,7 +17,8 @@ title: Title(
     color: Colors.blueAccent,
     child: Row(
       children: [
-
+Icon(Icons.contact_page),
+        Text("Contact Info"),
       ],
     )
 ),
