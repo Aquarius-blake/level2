@@ -46,6 +46,7 @@ class _QuotesState extends State<Quotes> {
   ];
   Widget qtemplate(Quote){
     return Card(
+      color: Colors.blue[300],
       margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
       child: Padding(
         padding: const EdgeInsets.all(12.0),
@@ -138,7 +139,7 @@ class _QuotesState extends State<Quotes> {
 
                 ),
                 onTap: (){
-                  Navigator.pushNamed(context, '/settings');
+                  Navigator.pushNamed(context, '/cont');
                 },
               ),
               SizedBox(height: 40.0,),
