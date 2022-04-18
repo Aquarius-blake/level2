@@ -18,6 +18,7 @@ title: Title(
     color: Colors.white,
     child: Row(
       children:<Widget>[
+        Icon(Icons.monitor_heart),
         Text(
       "Favourites",
   style: TextStyle(
