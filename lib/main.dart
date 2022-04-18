@@ -93,7 +93,9 @@ class _QuotesState extends State<Quotes> {
               DrawerHeader(
                 child: Column(
                   children: [
-
+CircleAvatar(
+  backgroundImage: AssetImage('Assets/9.jpg'),
+)
                   ],
                 ),
               ),
