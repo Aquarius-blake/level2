@@ -174,7 +174,10 @@ class _QuotesState extends State<Quotes> {
                   Navigator.pushNamed(context, '/settings');
                 },
               ),
-Divider(),
+Divider(
+  height: 60,
+  color: Colors.white38,
+),
               Text("")
 
             ],
