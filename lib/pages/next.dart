@@ -49,6 +49,7 @@ class _nextState extends State<next> {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children:<Widget> [
           Card(
+            color: Colors.blueAccent[100],
 
             margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
 
