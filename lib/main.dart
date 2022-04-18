@@ -156,7 +156,7 @@ CircleAvatar(
               ListTile(
                 leading: Icon(Icons.settings,color: Colors.black, size:50.0,),
                 title: Text(
-                  "Something",
+                  "Extra",
                   style: TextStyle(
                     fontSize: 18.0,
                     fontWeight: FontWeight.bold,
@@ -166,7 +166,7 @@ CircleAvatar(
 
                 ),
                 onTap: (){
-                  Navigator.pushNamed(context, '/settings');
+                  Navigator.pushNamed(context, '/next');
                 },
               ),
 
