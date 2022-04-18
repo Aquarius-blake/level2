@@ -85,21 +85,7 @@ class _QuotesState extends State<Quotes> {
         child: Column(
           children: <Widget>[
             DrawerHeader(
-                child: ListView(
-                  children: [
-
-                    UserAccountsDrawerHeader(
-
-                      accountName: Text("Someone"),
-                      accountEmail: Text("Someone@hu.com"),
-                      currentAccountPicture: CircleAvatar(
-                        child: ClipOval(
-                          child: Image(image: AssetImage('Assets/9.jpg')),
-                        ) ,
-                      ),
-                    )
-                  ],
-                )
+            child: ,
             ),
             SizedBox(height: 90,),
             ListTile(
