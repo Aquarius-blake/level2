@@ -175,8 +175,9 @@ class _QuotesState extends State<Quotes> {
                 },
               ),
 Divider(
-  height: 80,
+  height: 40,
   color: Colors.black,
+  thickness: 20,
 ),
               Text("Blake ind")
 
