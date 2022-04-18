@@ -174,7 +174,8 @@ class _QuotesState extends State<Quotes> {
                   Navigator.pushNamed(context, '/settings');
                 },
               ),
-
+Divider(),
+              Text("")
 
             ],
           ),
