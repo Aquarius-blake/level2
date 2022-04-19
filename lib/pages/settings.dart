@@ -11,14 +11,14 @@ class _SettingsState extends State<Settings> {
   int cont=0;
   String alert="";
   Widget something(){
-if (cont>0){
-    return Card(
+    if (cont>0){
+      return Card(
 
-);
-}
-else {
-  return Container();
-}
+      );
+    }
+    else {
+      return Container();
+    }
 
   }
 
@@ -26,33 +26,33 @@ else {
   Widget build(BuildContext context) {
     return Scaffold(
       floatingActionButton: FloatingActionButton(
-          onPressed: (){
-            setState(() {
-              alert="Access Denied";
-            });
-          },
+        onPressed: (){
+          setState(() {
+            alert="Access Denied";
+          });
+        },
         child: Icon(Icons.wifi),
       ),
       backgroundColor: Colors.white,
       appBar: AppBar(
         backgroundColor: Colors.blue[200],
-title: Title(color: Colors.white,
-    child: Center(
-      child: Text(
-          "Settings",
-      ),
-    )
-),
+        title: Title(color: Colors.white,
+            child: Center(
+              child: Text(
+                "Settings",
+              ),
+            )
+        ),
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
 
 
-Card(
+          Card(
 
 
-)
+          )
         ],
       ),
     );
