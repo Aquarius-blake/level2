@@ -203,7 +203,7 @@ CircleAvatar(
 
                 ),
                 onTap: (){
-                  Navigator.pushNamed(context, '/settings');
+                  Navigator.pushNamed(context, '/faq');
                 },
               ),
               SizedBox(height: 50.0,),
