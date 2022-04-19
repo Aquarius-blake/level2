@@ -31,6 +31,7 @@ class _ContactState extends State<Contact> {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
 Card(
+  color: Colors.blue[100],
   child: Column(
     children: [
       Text(
