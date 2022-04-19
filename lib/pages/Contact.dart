@@ -33,6 +33,12 @@ class _ContactState extends State<Contact> {
 Card(
   child: Column(
     children: [
+      Text(
+          "Email",
+      style: TextStyle(
+
+      ),
+      )
 
     ],
   ),
