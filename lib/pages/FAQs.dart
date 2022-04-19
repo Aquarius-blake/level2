@@ -36,15 +36,18 @@ fontWeight: FontWeight.bold,
 Card(
   color: Colors.blue[100],
   margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
-  child: Column(
-    children: [
+  child: Padding(
+    padding: const EdgeInsets.all(12.0),
+    child: Column(
+      children: [
 Text(
-    "Something",
+      "Something",
 style: TextStyle(
-  fontStyle: FontStyle.italic,
-  fontSize: 6.0,
+    fontStyle: FontStyle.italic,
+    fontSize: 6.0,
 ),)
-    ],
+      ],
+    ),
   ),
 )
         ],
