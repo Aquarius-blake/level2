@@ -8,8 +8,20 @@ class Settings extends StatefulWidget {
 }
 
 class _SettingsState extends State<Settings> {
-
+  int cont=0;
   String alert="";
+  Widget something(){
+if (cont>0){
+    return Card(
+
+);
+}
+else {
+  return Container();
+}
+
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
