@@ -56,7 +56,7 @@ class _FAQState extends State<FAQ> {
                     textAlign: TextAlign.start,
                     style: TextStyle(
                       fontStyle: FontStyle.italic,
-                      fontSize: 12.0,
+                      fontSize: 20.0,
 
                     ),
                   )
