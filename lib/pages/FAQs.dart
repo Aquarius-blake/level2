@@ -45,10 +45,13 @@ Text(
 style: TextStyle(
     fontStyle: FontStyle.italic,
     fontSize: 6.0,
-),)
+
+),
+textAlign: TextAlign.start,)
       ],
     ),
   ),
+
 )
         ],
       ),
