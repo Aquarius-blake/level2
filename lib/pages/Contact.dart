@@ -15,7 +15,7 @@ class _ContactState extends State<Contact> {
 
       appBar: AppBar(
         title: Title(
-          color: Colors.blueAccent,
+          color: Colors.blue[300],
           child: Row(
             children: [
               Icon(Icons.contact_page),
