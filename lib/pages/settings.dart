@@ -13,8 +13,12 @@ class _SettingsState extends State<Settings> {
   Widget something(){
     if (cont>0){
       return Card(
-margin: EdgeInsets.all(8),
-child: Text('$alert'),
+
+margin: EdgeInsets.all(8.0),
+child: Padding(
+  padding: const EdgeInsets.all(8.0),
+  child:   Text('$alert'),
+),
       );
     }
     else {
