@@ -44,15 +44,6 @@ fontWeight: FontWeight.bold,
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                   Text(
-                    "Email",
-                    style: TextStyle(
-
-                        fontStyle: FontStyle.italic,
-                        fontSize: 12.0
-                    ),
-                    textAlign: TextAlign.start,
-                  ),
-                  Text(
                     "Donchicken@SukonDeez.Nuts",
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
@@ -60,7 +51,16 @@ fontWeight: FontWeight.bold,
                         fontSize: 20.0
                     ),
                     textAlign: TextAlign.start,
+                  ),Text(
+                    "Email",
+                    style: TextStyle(
+
+                        fontStyle: FontStyle.italic,
+                        fontSize: 12.0
+                    ),
+                    textAlign: TextAlign.end,
                   ),
+
 
                 ],
               ),
