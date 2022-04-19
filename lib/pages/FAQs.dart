@@ -16,7 +16,7 @@ appBar: AppBar(
 title: Row(
   children: [
     Icon(Icons.question_answer),
-    SizedBox(width:6.0 ,),
+    SizedBox(width:12.0 ,),
     Text(
         "FAQs",
       style: TextStyle(
