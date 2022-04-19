@@ -13,7 +13,7 @@ class _SettingsState extends State<Settings> {
   Widget something(){
     if (cont>0){
       return Card(
-
+child: Text('$alert'),
       );
     }
     else {
@@ -29,6 +29,7 @@ class _SettingsState extends State<Settings> {
         onPressed: (){
           setState(() {
             alert="Access Denied";
+            cont=1;
           });
         },
         child: Icon(Icons.wifi),
