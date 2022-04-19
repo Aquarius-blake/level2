@@ -46,7 +46,7 @@ Card(
           fontStyle: FontStyle.italic,
           fontSize: 12.0
         ),
-          textAlign: TextAlign.left,
+          textAlign: TextAlign.start,
         )
 
       ],
