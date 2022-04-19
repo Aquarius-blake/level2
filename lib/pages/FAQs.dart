@@ -30,8 +30,16 @@ fontWeight: FontWeight.bold,
 ),
 ),
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
+Card(
+  child: Column(
+    children: [
 
+    ],
+  ),
+)
         ],
       ),
     );
