@@ -56,7 +56,7 @@ child: Padding(
       ),
       backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: Colors.blue[200],
+        backgroundColor: Colors.blue[300],
         title: Title(color: Colors.white,
             child: Center(
               child: Text(
