@@ -41,13 +41,15 @@ class _FAQState extends State<FAQ> {
               child: Column(
                 children: [
                   Text(
+
                     "Something",
+                    textAlign: TextAlign.start,
                     style: TextStyle(
                       fontStyle: FontStyle.italic,
                       fontSize: 12.0,
 
                     ),
-                    textAlign: TextAlign.start,)
+                   )
                 ],
               ),
             ),
