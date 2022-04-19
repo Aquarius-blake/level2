@@ -29,7 +29,7 @@ child: Text('$alert'),
         onPressed: (){
           setState(() {
             alert="Access Denied";
-            cont=1;
+            cont++;
           });
         },
         child: Icon(Icons.wifi),
@@ -48,12 +48,9 @@ child: Text('$alert'),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
+something(),
 
 
-          Card(
-
-
-          )
         ],
       ),
     );
