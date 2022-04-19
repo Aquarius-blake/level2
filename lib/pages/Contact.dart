@@ -28,6 +28,7 @@ class _ContactState extends State<Contact> {
         ),
       ),
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
 Card(
   child: Column(
