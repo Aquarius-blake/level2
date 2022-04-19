@@ -61,7 +61,70 @@ fontWeight: FontWeight.bold,
       ],
     ),
   ),
-)
+),
+          Card(
+            elevation: 5.0,
+            color: Colors.blue[100],
+            margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
+            child: Padding(
+              padding: const EdgeInsets.all(12.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  Text(
+                    "Email",
+                    style: TextStyle(
+
+                        fontStyle: FontStyle.italic,
+                        fontSize: 12.0
+                    ),
+                    textAlign: TextAlign.start,
+                  ),
+                  Text(
+                    "Donchicken@SukonDeez.Nuts",
+                    style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontStyle: FontStyle.italic,
+                        fontSize: 20.0
+                    ),
+                    textAlign: TextAlign.start,
+                  ),
+
+                ],
+              ),
+            ),
+          ),Card(
+            elevation: 5.0,
+            color: Colors.blue[100],
+            margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
+            child: Padding(
+              padding: const EdgeInsets.all(12.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  Text(
+                    "Email",
+                    style: TextStyle(
+
+                        fontStyle: FontStyle.italic,
+                        fontSize: 12.0
+                    ),
+                    textAlign: TextAlign.start,
+                  ),
+                  Text(
+                    "Donchicken@SukonDeez.Nuts",
+                    style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontStyle: FontStyle.italic,
+                        fontSize: 20.0
+                    ),
+                    textAlign: TextAlign.start,
+                  ),
+
+                ],
+              ),
+            ),
+          ),
         ],
       ),
     );
