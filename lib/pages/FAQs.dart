@@ -31,9 +31,11 @@ fontWeight: FontWeight.bold,
 ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
-        mainAxisAlignment: MainAxisAlignment.center,
+
         children: [
 Card(
+  color: Colors.blue[100],
+  margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
   child: Column(
     children: [
 Text(
