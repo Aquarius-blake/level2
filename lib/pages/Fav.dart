@@ -52,7 +52,7 @@ fontWeight: FontWeight.bold,
                     ),
                     textAlign: TextAlign.start,
                   ),Text(
-                    "Email",
+                    "~Emmanuel Dikkoe",
                     style: TextStyle(
 
                         fontStyle: FontStyle.italic,
