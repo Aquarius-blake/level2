@@ -33,19 +33,22 @@ class _ContactState extends State<Contact> {
 Card(
   color: Colors.blue[100],
   margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
-  child: Column(
-    children: [
-      Text(
-          "Email",
-      style: TextStyle(
+  child: Padding(
+    padding: const EdgeInsets.all(12.0),
+    child: Column(
+      children: [
+        Text(
+            "Email",
+        style: TextStyle(
 
-        fontStyle: FontStyle.italic,
-        fontSize: 12.0
-      ),
-        textAlign: TextAlign.left,
-      )
+          fontStyle: FontStyle.italic,
+          fontSize: 12.0
+        ),
+          textAlign: TextAlign.left,
+        )
 
-    ],
+      ],
+    ),
   ),
 )
         ],
