@@ -36,7 +36,9 @@ Card(
       Text(
           "Email",
       style: TextStyle(
-
+fontWeight: FontWeight.bold,
+        fontStyle: FontStyle.italic,
+        fontSize: 12.0
       ),
         textAlign: TextAlign.left,
       )
