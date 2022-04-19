@@ -8,13 +8,15 @@ class Settings extends StatefulWidget {
 }
 
 class _SettingsState extends State<Settings> {
+
+  String alert="";
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       floatingActionButton: FloatingActionButton(
           onPressed: (){
             setState(() {
-
+              alert="Access Denied";
             });
           },
         child: Icon(Icons.wifi),
