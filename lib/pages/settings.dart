@@ -17,6 +17,7 @@ class _SettingsState extends State<Settings> {
 
             });
           },
+        child: Icon(Icons.wifi),
       ),
       backgroundColor: Colors.white,
       appBar: AppBar(
