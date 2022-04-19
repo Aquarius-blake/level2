@@ -36,7 +36,11 @@ fontWeight: FontWeight.bold,
 Card(
   child: Column(
     children: [
-
+Text(
+    "Something",
+style: TextStyle(
+  fontStyle: FontStyle.italic,
+),)
     ],
   ),
 )
