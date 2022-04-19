@@ -31,6 +31,7 @@ class _ContactState extends State<Contact> {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
 Card(
+  elevation: 5.0,
   color: Colors.blue[100],
   margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
   child: Padding(
