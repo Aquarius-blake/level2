@@ -44,7 +44,7 @@ fontWeight: FontWeight.bold,
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                   Text(
-                    "Donchicken@SukonDeez.Nuts",
+                    "Breast is life, Duna means power",
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontStyle: FontStyle.italic,
