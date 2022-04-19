@@ -26,6 +26,11 @@ class _ContactState extends State<Contact> {
 
         ),
       ),
+      body: Column(
+        children: [
+
+        ],
+      ),
     );
   }
 }
