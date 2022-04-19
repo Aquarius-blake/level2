@@ -52,7 +52,7 @@ class _FAQState extends State<FAQ> {
                    ),
                   Text(
 
-                    "Something",
+                    "Something wwerkwbjekrwer kewrkbew rhbwe rjbwerkjbwe rkwejbrkw erk",
                     textAlign: TextAlign.end,
                     style: TextStyle(
                       fontStyle: FontStyle.italic,
