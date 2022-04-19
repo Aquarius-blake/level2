@@ -14,6 +14,7 @@ class _ContactState extends State<Contact> {
     return Scaffold(
 
       appBar: AppBar(
+        backgroundColor: Colors.blue[300],
         title: Title(
           color: Colors.white,
           child: Row(
