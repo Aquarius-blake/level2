@@ -29,47 +29,47 @@ class _FAQState extends State<FAQ> {
           ],
         ),
       ),
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
+      body: SingleChildScrollView(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
 
-        children: [
-          Card(
-            color: Colors.blue[100],
-            margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
-            child: Padding(
-              padding: const EdgeInsets.all(12.0),
-              child: Column(
-                children: [
-                  Text(
+          children: [
+            Card(
+              color: Colors.blue[100],
+              margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
+              child: Padding(
+                padding: const EdgeInsets.all(12.0),
+                child: Column(
+                  children: [
+                    Text(
 
-                    "Something asdfdsjb asjbdajsbdj asdasjhbdjasd dassadhfb",
-                    textAlign: TextAlign.start,
-                    style: TextStyle(
-                      fontStyle: FontStyle.italic,
-                      fontSize: 12.0,
+                      "Something asdfdsjb asjbdajsbdj asdasjhbdjasd dassadhfb",
+                      textAlign: TextAlign.start,
+                      style: TextStyle(
+                        fontStyle: FontStyle.italic,
+                        fontSize: 12.0,
 
-                    ),
-                   ),
-                  Text(
+                      ),
+                     ),
+                    Text(
 
-                    "Something wwerkwbjekrwer kewrkb",
-                    textAlign: TextAlign.start,
-                    style: TextStyle(
-                      fontStyle: FontStyle.italic,
-                      fontSize: 20.0,
+                      "Something wwerkwbjekrwer kewrkb",
+                      textAlign: TextAlign.start,
+                      style: TextStyle(
+                        fontStyle: FontStyle.italic,
+                        fontSize: 20.0,
 
-                    ),
-                  )
-                ],
+                      ),
+                    )
+                  ],
+                ),
               ),
-            ),
 
-          ),   Card(
-            color: Colors.blue[100],
-            margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
-            child: Padding(
-              padding: const EdgeInsets.all(12.0),
-              child: SingleChildScrollView(
+            ),   Card(
+              color: Colors.blue[100],
+              margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
+              child: Padding(
+                padding: const EdgeInsets.all(12.0),
                 child: Column(
                   children: [
                     Text(
@@ -95,289 +95,289 @@ class _FAQState extends State<FAQ> {
                   ],
                 ),
               ),
-            ),
 
-          ),   Card(
-            color: Colors.blue[100],
-            margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
-            child: Padding(
-              padding: const EdgeInsets.all(12.0),
-              child: Column(
-                children: [
-                  Text(
+            ),   Card(
+              color: Colors.blue[100],
+              margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
+              child: Padding(
+                padding: const EdgeInsets.all(12.0),
+                child: Column(
+                  children: [
+                    Text(
 
-                    "Something asdfdsjb asjbdajsbdj asdasjhbdjasd dassadhfb",
-                    textAlign: TextAlign.start,
-                    style: TextStyle(
-                      fontStyle: FontStyle.italic,
-                      fontSize: 12.0,
+                      "Something asdfdsjb asjbdajsbdj asdasjhbdjasd dassadhfb",
+                      textAlign: TextAlign.start,
+                      style: TextStyle(
+                        fontStyle: FontStyle.italic,
+                        fontSize: 12.0,
 
+                      ),
                     ),
-                  ),
-                  Text(
+                    Text(
 
-                    "Something wwerkwbjekrwer kewrkb",
-                    textAlign: TextAlign.start,
-                    style: TextStyle(
-                      fontStyle: FontStyle.italic,
-                      fontSize: 20.0,
+                      "Something wwerkwbjekrwer kewrkb",
+                      textAlign: TextAlign.start,
+                      style: TextStyle(
+                        fontStyle: FontStyle.italic,
+                        fontSize: 20.0,
 
-                    ),
-                  )
-                ],
+                      ),
+                    )
+                  ],
+                ),
               ),
-            ),
 
-          ),   Card(
-            color: Colors.blue[100],
-            margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
-            child: Padding(
-              padding: const EdgeInsets.all(12.0),
-              child: Column(
-                children: [
-                  Text(
+            ),   Card(
+              color: Colors.blue[100],
+              margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
+              child: Padding(
+                padding: const EdgeInsets.all(12.0),
+                child: Column(
+                  children: [
+                    Text(
 
-                    "Something asdfdsjb asjbdajsbdj asdasjhbdjasd dassadhfb",
-                    textAlign: TextAlign.start,
-                    style: TextStyle(
-                      fontStyle: FontStyle.italic,
-                      fontSize: 12.0,
+                      "Something asdfdsjb asjbdajsbdj asdasjhbdjasd dassadhfb",
+                      textAlign: TextAlign.start,
+                      style: TextStyle(
+                        fontStyle: FontStyle.italic,
+                        fontSize: 12.0,
 
+                      ),
                     ),
-                  ),
-                  Text(
+                    Text(
 
-                    "Something wwerkwbjekrwer kewrkb",
-                    textAlign: TextAlign.start,
-                    style: TextStyle(
-                      fontStyle: FontStyle.italic,
-                      fontSize: 20.0,
+                      "Something wwerkwbjekrwer kewrkb",
+                      textAlign: TextAlign.start,
+                      style: TextStyle(
+                        fontStyle: FontStyle.italic,
+                        fontSize: 20.0,
 
-                    ),
-                  )
-                ],
+                      ),
+                    )
+                  ],
+                ),
               ),
-            ),
 
-          ),   Card(
-            color: Colors.blue[100],
-            margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
-            child: Padding(
-              padding: const EdgeInsets.all(12.0),
-              child: Column(
-                children: [
-                  Text(
+            ),   Card(
+              color: Colors.blue[100],
+              margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
+              child: Padding(
+                padding: const EdgeInsets.all(12.0),
+                child: Column(
+                  children: [
+                    Text(
 
-                    "Something asdfdsjb asjbdajsbdj asdasjhbdjasd dassadhfb",
-                    textAlign: TextAlign.start,
-                    style: TextStyle(
-                      fontStyle: FontStyle.italic,
-                      fontSize: 12.0,
+                      "Something asdfdsjb asjbdajsbdj asdasjhbdjasd dassadhfb",
+                      textAlign: TextAlign.start,
+                      style: TextStyle(
+                        fontStyle: FontStyle.italic,
+                        fontSize: 12.0,
 
+                      ),
                     ),
-                  ),
-                  Text(
+                    Text(
 
-                    "Something wwerkwbjekrwer kewrkb",
-                    textAlign: TextAlign.start,
-                    style: TextStyle(
-                      fontStyle: FontStyle.italic,
-                      fontSize: 20.0,
+                      "Something wwerkwbjekrwer kewrkb",
+                      textAlign: TextAlign.start,
+                      style: TextStyle(
+                        fontStyle: FontStyle.italic,
+                        fontSize: 20.0,
 
-                    ),
-                  )
-                ],
+                      ),
+                    )
+                  ],
+                ),
               ),
-            ),
 
-          ),   Card(
-            color: Colors.blue[100],
-            margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
-            child: Padding(
-              padding: const EdgeInsets.all(12.0),
-              child: Column(
-                children: [
-                  Text(
+            ),   Card(
+              color: Colors.blue[100],
+              margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
+              child: Padding(
+                padding: const EdgeInsets.all(12.0),
+                child: Column(
+                  children: [
+                    Text(
 
-                    "Something asdfdsjb asjbdajsbdj asdasjhbdjasd dassadhfb",
-                    textAlign: TextAlign.start,
-                    style: TextStyle(
-                      fontStyle: FontStyle.italic,
-                      fontSize: 12.0,
+                      "Something asdfdsjb asjbdajsbdj asdasjhbdjasd dassadhfb",
+                      textAlign: TextAlign.start,
+                      style: TextStyle(
+                        fontStyle: FontStyle.italic,
+                        fontSize: 12.0,
 
+                      ),
                     ),
-                  ),
-                  Text(
+                    Text(
 
-                    "Something wwerkwbjekrwer kewrkb",
-                    textAlign: TextAlign.start,
-                    style: TextStyle(
-                      fontStyle: FontStyle.italic,
-                      fontSize: 20.0,
+                      "Something wwerkwbjekrwer kewrkb",
+                      textAlign: TextAlign.start,
+                      style: TextStyle(
+                        fontStyle: FontStyle.italic,
+                        fontSize: 20.0,
 
-                    ),
-                  )
-                ],
+                      ),
+                    )
+                  ],
+                ),
               ),
-            ),
 
-          ),   Card(
-            color: Colors.blue[100],
-            margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
-            child: Padding(
-              padding: const EdgeInsets.all(12.0),
-              child: Column(
-                children: [
-                  Text(
+            ),   Card(
+              color: Colors.blue[100],
+              margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
+              child: Padding(
+                padding: const EdgeInsets.all(12.0),
+                child: Column(
+                  children: [
+                    Text(
 
-                    "Something asdfdsjb asjbdajsbdj asdasjhbdjasd dassadhfb",
-                    textAlign: TextAlign.start,
-                    style: TextStyle(
-                      fontStyle: FontStyle.italic,
-                      fontSize: 12.0,
+                      "Something asdfdsjb asjbdajsbdj asdasjhbdjasd dassadhfb",
+                      textAlign: TextAlign.start,
+                      style: TextStyle(
+                        fontStyle: FontStyle.italic,
+                        fontSize: 12.0,
 
+                      ),
                     ),
-                  ),
-                  Text(
+                    Text(
 
-                    "Something wwerkwbjekrwer kewrkb",
-                    textAlign: TextAlign.start,
-                    style: TextStyle(
-                      fontStyle: FontStyle.italic,
-                      fontSize: 20.0,
+                      "Something wwerkwbjekrwer kewrkb",
+                      textAlign: TextAlign.start,
+                      style: TextStyle(
+                        fontStyle: FontStyle.italic,
+                        fontSize: 20.0,
 
-                    ),
-                  )
-                ],
+                      ),
+                    )
+                  ],
+                ),
               ),
-            ),
 
-          ),   Card(
-            color: Colors.blue[100],
-            margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
-            child: Padding(
-              padding: const EdgeInsets.all(12.0),
-              child: Column(
-                children: [
-                  Text(
+            ),   Card(
+              color: Colors.blue[100],
+              margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
+              child: Padding(
+                padding: const EdgeInsets.all(12.0),
+                child: Column(
+                  children: [
+                    Text(
 
-                    "Something asdfdsjb asjbdajsbdj asdasjhbdjasd dassadhfb",
-                    textAlign: TextAlign.start,
-                    style: TextStyle(
-                      fontStyle: FontStyle.italic,
-                      fontSize: 12.0,
+                      "Something asdfdsjb asjbdajsbdj asdasjhbdjasd dassadhfb",
+                      textAlign: TextAlign.start,
+                      style: TextStyle(
+                        fontStyle: FontStyle.italic,
+                        fontSize: 12.0,
 
+                      ),
                     ),
-                  ),
-                  Text(
+                    Text(
 
-                    "Something wwerkwbjekrwer kewrkb",
-                    textAlign: TextAlign.start,
-                    style: TextStyle(
-                      fontStyle: FontStyle.italic,
-                      fontSize: 20.0,
+                      "Something wwerkwbjekrwer kewrkb",
+                      textAlign: TextAlign.start,
+                      style: TextStyle(
+                        fontStyle: FontStyle.italic,
+                        fontSize: 20.0,
 
-                    ),
-                  )
-                ],
+                      ),
+                    )
+                  ],
+                ),
               ),
-            ),
 
-          ),   Card(
-            color: Colors.blue[100],
-            margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
-            child: Padding(
-              padding: const EdgeInsets.all(12.0),
-              child: Column(
-                children: [
-                  Text(
+            ),   Card(
+              color: Colors.blue[100],
+              margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
+              child: Padding(
+                padding: const EdgeInsets.all(12.0),
+                child: Column(
+                  children: [
+                    Text(
 
-                    "Something asdfdsjb asjbdajsbdj asdasjhbdjasd dassadhfb",
-                    textAlign: TextAlign.start,
-                    style: TextStyle(
-                      fontStyle: FontStyle.italic,
-                      fontSize: 12.0,
+                      "Something asdfdsjb asjbdajsbdj asdasjhbdjasd dassadhfb",
+                      textAlign: TextAlign.start,
+                      style: TextStyle(
+                        fontStyle: FontStyle.italic,
+                        fontSize: 12.0,
 
+                      ),
                     ),
-                  ),
-                  Text(
+                    Text(
 
-                    "Something wwerkwbjekrwer kewrkb",
-                    textAlign: TextAlign.start,
-                    style: TextStyle(
-                      fontStyle: FontStyle.italic,
-                      fontSize: 20.0,
+                      "Something wwerkwbjekrwer kewrkb",
+                      textAlign: TextAlign.start,
+                      style: TextStyle(
+                        fontStyle: FontStyle.italic,
+                        fontSize: 20.0,
 
-                    ),
-                  )
-                ],
+                      ),
+                    )
+                  ],
+                ),
               ),
-            ),
 
-          ),   Card(
-            color: Colors.blue[100],
-            margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
-            child: Padding(
-              padding: const EdgeInsets.all(12.0),
-              child: Column(
-                children: [
-                  Text(
+            ),   Card(
+              color: Colors.blue[100],
+              margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
+              child: Padding(
+                padding: const EdgeInsets.all(12.0),
+                child: Column(
+                  children: [
+                    Text(
 
-                    "Something asdfdsjb asjbdajsbdj asdasjhbdjasd dassadhfb",
-                    textAlign: TextAlign.start,
-                    style: TextStyle(
-                      fontStyle: FontStyle.italic,
-                      fontSize: 12.0,
+                      "Something asdfdsjb asjbdajsbdj asdasjhbdjasd dassadhfb",
+                      textAlign: TextAlign.start,
+                      style: TextStyle(
+                        fontStyle: FontStyle.italic,
+                        fontSize: 12.0,
 
+                      ),
                     ),
-                  ),
-                  Text(
+                    Text(
 
-                    "Something wwerkwbjekrwer kewrkb",
-                    textAlign: TextAlign.start,
-                    style: TextStyle(
-                      fontStyle: FontStyle.italic,
-                      fontSize: 20.0,
+                      "Something wwerkwbjekrwer kewrkb",
+                      textAlign: TextAlign.start,
+                      style: TextStyle(
+                        fontStyle: FontStyle.italic,
+                        fontSize: 20.0,
 
-                    ),
-                  )
-                ],
+                      ),
+                    )
+                  ],
+                ),
               ),
-            ),
 
-          ),   Card(
-            color: Colors.blue[100],
-            margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
-            child: Padding(
-              padding: const EdgeInsets.all(12.0),
-              child: Column(
-                children: [
-                  Text(
+            ),   Card(
+              color: Colors.blue[100],
+              margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
+              child: Padding(
+                padding: const EdgeInsets.all(12.0),
+                child: Column(
+                  children: [
+                    Text(
 
-                    "Something asdfdsjb asjbdajsbdj asdasjhbdjasd dassadhfb",
-                    textAlign: TextAlign.start,
-                    style: TextStyle(
-                      fontStyle: FontStyle.italic,
-                      fontSize: 12.0,
+                      "Something asdfdsjb asjbdajsbdj asdasjhbdjasd dassadhfb",
+                      textAlign: TextAlign.start,
+                      style: TextStyle(
+                        fontStyle: FontStyle.italic,
+                        fontSize: 12.0,
 
+                      ),
                     ),
-                  ),
-                  Text(
+                    Text(
 
-                    "Something wwerkwbjekrwer kewrkb",
-                    textAlign: TextAlign.start,
-                    style: TextStyle(
-                      fontStyle: FontStyle.italic,
-                      fontSize: 20.0,
+                      "Something wwerkwbjekrwer kewrkb",
+                      textAlign: TextAlign.start,
+                      style: TextStyle(
+                        fontStyle: FontStyle.italic,
+                        fontSize: 20.0,
 
-                    ),
-                  )
-                ],
+                      ),
+                    )
+                  ],
+                ),
               ),
-            ),
 
-          ),
-        ],
+            ),
+          ],
+        ),
       ),
     );
   }
