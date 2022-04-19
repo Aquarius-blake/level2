@@ -20,6 +20,8 @@ title: Row(
     Text(
         "FAQs",
       style: TextStyle(
+fontWeight: FontWeight.bold,
+        fontStyle: FontStyle.italic,
 
       ),
     )
