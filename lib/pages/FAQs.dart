@@ -12,7 +12,11 @@ class _FAQState extends State<FAQ> {
   Widget build(BuildContext context) {
     return Scaffold(
 appBar: AppBar(
+title: Row(
+  children: [
 
+  ],
+),
 ),
     );
   }
