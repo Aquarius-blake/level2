@@ -51,7 +51,9 @@ fontWeight: FontWeight.bold,
                         fontSize: 20.0
                     ),
                     textAlign: TextAlign.start,
-                  ),Text(
+                  ),
+                  SizedBox(height: 10,),
+                  Text(
                     "~Emmanuel Dikkoe",
                     style: TextStyle(
 
