@@ -26,9 +26,25 @@ child: Padding(
     }
 
   }
+  void testing() async{
+
+    await Future.delayed(Duration(seconds: 5),(){
+      cont=0;
+
+    }
+    );
+
+    Future.delayed(Duration(seconds: 2),(){
+      setState(() {
+        cont=0;
+      });
+    }
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
+    testing();
     return Scaffold(
       floatingActionButton: FloatingActionButton(
         onPressed: (){
