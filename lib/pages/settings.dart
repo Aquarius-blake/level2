@@ -48,7 +48,9 @@ child: Text('$alert'),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
-something(),
+Center(
+
+    child: something()),
 
 
         ],
