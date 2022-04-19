@@ -15,6 +15,8 @@ appBar: AppBar(
   backgroundColor: Colors.blue[300],
 title: Row(
   children: [
+    Icon(Icons.question_answer),
+    Text("FAQs")
 
   ],
 ),
