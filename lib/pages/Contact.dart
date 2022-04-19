@@ -51,9 +51,9 @@ Card(
         Text(
           "Donchicken@SukonDeez.Nuts",
           style: TextStyle(
-
+fontWeight: FontWeight.bold,
               fontStyle: FontStyle.italic,
-              fontSize: 12.0
+              fontSize: 20.0
           ),
           textAlign: TextAlign.start,
         ),
