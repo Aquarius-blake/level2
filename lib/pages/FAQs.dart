@@ -49,7 +49,17 @@ class _FAQState extends State<FAQ> {
                       fontSize: 12.0,
 
                     ),
-                   )
+                   ),
+                  Text(
+
+                    "Something",
+                    textAlign: TextAlign.start,
+                    style: TextStyle(
+                      fontStyle: FontStyle.italic,
+                      fontSize: 12.0,
+
+                    ),
+                  )
                 ],
               ),
             ),
