@@ -40,6 +40,7 @@ Text(
     "Something",
 style: TextStyle(
   fontStyle: FontStyle.italic,
+  fontSize: 6.0,
 ),)
     ],
   ),
