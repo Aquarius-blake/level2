@@ -72,7 +72,7 @@ fontWeight: FontWeight.bold,
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                   Text(
-                    "Email",
+                    "Address",
                     style: TextStyle(
 
                         fontStyle: FontStyle.italic,
@@ -81,7 +81,7 @@ fontWeight: FontWeight.bold,
                     textAlign: TextAlign.start,
                   ),
                   Text(
-                    "Donchicken@SukonDeez.Nuts",
+                    "Ligma Balls 69 Times Street",
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontStyle: FontStyle.italic,
