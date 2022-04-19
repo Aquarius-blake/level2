@@ -31,276 +31,278 @@ fontWeight: FontWeight.bold,
     )
 ),
       ),
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: [
-          Card(
-            elevation: 5.0,
-            color: Colors.blue[100],
-            margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
-            child: Padding(
-              padding: const EdgeInsets.all(12.0),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: [
-                  Text(
-                    "Breast is life, Duna means power",
-                    style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontStyle: FontStyle.italic,
-                        fontSize: 20.0
+      body: SingleChildScrollView(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Card(
+              elevation: 5.0,
+              color: Colors.blue[100],
+              margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
+              child: Padding(
+                padding: const EdgeInsets.all(12.0),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    Text(
+                      "Breast is life, Duna means power",
+                      style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontStyle: FontStyle.italic,
+                          fontSize: 20.0
+                      ),
+                      textAlign: TextAlign.start,
                     ),
-                    textAlign: TextAlign.start,
-                  ),
-                  SizedBox(height: 10,),
-                  Text(
-                    "~Emmanuel Dikkoe",
-                    style: TextStyle(
+                    SizedBox(height: 10,),
+                    Text(
+                      "~Emmanuel Dikkoe",
+                      style: TextStyle(
 
-                        fontStyle: FontStyle.italic,
-                        fontSize: 12.0
+                          fontStyle: FontStyle.italic,
+                          fontSize: 12.0
+                      ),
+                      textAlign: TextAlign.end,
                     ),
-                    textAlign: TextAlign.end,
-                  ),
 
 
-                ],
+                  ],
+                ),
+              ),
+            ), Card(
+              elevation: 5.0,
+              color: Colors.blue[100],
+              margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
+              child: Padding(
+                padding: const EdgeInsets.all(12.0),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    Text(
+                      "Breast is life, Duna means power",
+                      style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontStyle: FontStyle.italic,
+                          fontSize: 20.0
+                      ),
+                      textAlign: TextAlign.start,
+                    ),
+                    SizedBox(height: 10,),
+                    Text(
+                      "~Emmanuel Dikkoe",
+                      style: TextStyle(
+
+                          fontStyle: FontStyle.italic,
+                          fontSize: 12.0
+                      ),
+                      textAlign: TextAlign.end,
+                    ),
+
+
+                  ],
+                ),
+              ),
+            ), Card(
+              elevation: 5.0,
+              color: Colors.blue[100],
+              margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
+              child: Padding(
+                padding: const EdgeInsets.all(12.0),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    Text(
+                      "Breast is life, Duna means power",
+                      style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontStyle: FontStyle.italic,
+                          fontSize: 20.0
+                      ),
+                      textAlign: TextAlign.start,
+                    ),
+                    SizedBox(height: 10,),
+                    Text(
+                      "~Emmanuel Dikkoe",
+                      style: TextStyle(
+
+                          fontStyle: FontStyle.italic,
+                          fontSize: 12.0
+                      ),
+                      textAlign: TextAlign.end,
+                    ),
+
+
+                  ],
+                ),
+              ),
+            ), Card(
+              elevation: 5.0,
+              color: Colors.blue[100],
+              margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
+              child: Padding(
+                padding: const EdgeInsets.all(12.0),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    Text(
+                      "Breast is life, Duna means power",
+                      style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontStyle: FontStyle.italic,
+                          fontSize: 20.0
+                      ),
+                      textAlign: TextAlign.start,
+                    ),
+                    SizedBox(height: 10,),
+                    Text(
+                      "~Emmanuel Dikkoe",
+                      style: TextStyle(
+
+                          fontStyle: FontStyle.italic,
+                          fontSize: 12.0
+                      ),
+                      textAlign: TextAlign.end,
+                    ),
+
+
+                  ],
+                ),
+              ),
+            ), Card(
+              elevation: 5.0,
+              color: Colors.blue[100],
+              margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
+              child: Padding(
+                padding: const EdgeInsets.all(12.0),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    Text(
+                      "Breast is life, Duna means power",
+                      style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontStyle: FontStyle.italic,
+                          fontSize: 20.0
+                      ),
+                      textAlign: TextAlign.start,
+                    ),
+                    SizedBox(height: 10,),
+                    Text(
+                      "~Emmanuel Dikkoe",
+                      style: TextStyle(
+
+                          fontStyle: FontStyle.italic,
+                          fontSize: 12.0
+                      ),
+                      textAlign: TextAlign.end,
+                    ),
+
+
+                  ],
+                ),
+              ),
+            ), Card(
+              elevation: 5.0,
+              color: Colors.blue[100],
+              margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
+              child: Padding(
+                padding: const EdgeInsets.all(12.0),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    Text(
+                      "Breast is life, Duna means power",
+                      style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontStyle: FontStyle.italic,
+                          fontSize: 20.0
+                      ),
+                      textAlign: TextAlign.start,
+                    ),
+                    SizedBox(height: 10,),
+                    Text(
+                      "~Emmanuel Dikkoe",
+                      style: TextStyle(
+
+                          fontStyle: FontStyle.italic,
+                          fontSize: 12.0
+                      ),
+                      textAlign: TextAlign.end,
+                    ),
+
+
+                  ],
+                ),
+              ),
+            ), Card(
+              elevation: 5.0,
+              color: Colors.blue[100],
+              margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
+              child: Padding(
+                padding: const EdgeInsets.all(12.0),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    Text(
+                      "Breast is life, Duna means power",
+                      style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontStyle: FontStyle.italic,
+                          fontSize: 20.0
+                      ),
+                      textAlign: TextAlign.start,
+                    ),
+                    SizedBox(height: 10,),
+                    Text(
+                      "~Emmanuel Dikkoe",
+                      style: TextStyle(
+
+                          fontStyle: FontStyle.italic,
+                          fontSize: 12.0
+                      ),
+                      textAlign: TextAlign.end,
+                    ),
+
+
+                  ],
+                ),
+              ),
+            ), Card(
+              elevation: 5.0,
+              color: Colors.blue[100],
+              margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
+              child: Padding(
+                padding: const EdgeInsets.all(12.0),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    Text(
+                      "Breast is life, Duna means power",
+                      style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontStyle: FontStyle.italic,
+                          fontSize: 20.0
+                      ),
+                      textAlign: TextAlign.start,
+                    ),
+                    SizedBox(height: 10,),
+                    Text(
+                      "~Emmanuel Dikkoe",
+                      style: TextStyle(
+
+                          fontStyle: FontStyle.italic,
+                          fontSize: 12.0
+                      ),
+                      textAlign: TextAlign.end,
+                    ),
+
+
+                  ],
+                ),
               ),
             ),
-          ), Card(
-            elevation: 5.0,
-            color: Colors.blue[100],
-            margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
-            child: Padding(
-              padding: const EdgeInsets.all(12.0),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: [
-                  Text(
-                    "Breast is life, Duna means power",
-                    style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontStyle: FontStyle.italic,
-                        fontSize: 20.0
-                    ),
-                    textAlign: TextAlign.start,
-                  ),
-                  SizedBox(height: 10,),
-                  Text(
-                    "~Emmanuel Dikkoe",
-                    style: TextStyle(
 
-                        fontStyle: FontStyle.italic,
-                        fontSize: 12.0
-                    ),
-                    textAlign: TextAlign.end,
-                  ),
-
-
-                ],
-              ),
-            ),
-          ), Card(
-            elevation: 5.0,
-            color: Colors.blue[100],
-            margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
-            child: Padding(
-              padding: const EdgeInsets.all(12.0),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: [
-                  Text(
-                    "Breast is life, Duna means power",
-                    style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontStyle: FontStyle.italic,
-                        fontSize: 20.0
-                    ),
-                    textAlign: TextAlign.start,
-                  ),
-                  SizedBox(height: 10,),
-                  Text(
-                    "~Emmanuel Dikkoe",
-                    style: TextStyle(
-
-                        fontStyle: FontStyle.italic,
-                        fontSize: 12.0
-                    ),
-                    textAlign: TextAlign.end,
-                  ),
-
-
-                ],
-              ),
-            ),
-          ), Card(
-            elevation: 5.0,
-            color: Colors.blue[100],
-            margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
-            child: Padding(
-              padding: const EdgeInsets.all(12.0),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: [
-                  Text(
-                    "Breast is life, Duna means power",
-                    style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontStyle: FontStyle.italic,
-                        fontSize: 20.0
-                    ),
-                    textAlign: TextAlign.start,
-                  ),
-                  SizedBox(height: 10,),
-                  Text(
-                    "~Emmanuel Dikkoe",
-                    style: TextStyle(
-
-                        fontStyle: FontStyle.italic,
-                        fontSize: 12.0
-                    ),
-                    textAlign: TextAlign.end,
-                  ),
-
-
-                ],
-              ),
-            ),
-          ), Card(
-            elevation: 5.0,
-            color: Colors.blue[100],
-            margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
-            child: Padding(
-              padding: const EdgeInsets.all(12.0),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: [
-                  Text(
-                    "Breast is life, Duna means power",
-                    style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontStyle: FontStyle.italic,
-                        fontSize: 20.0
-                    ),
-                    textAlign: TextAlign.start,
-                  ),
-                  SizedBox(height: 10,),
-                  Text(
-                    "~Emmanuel Dikkoe",
-                    style: TextStyle(
-
-                        fontStyle: FontStyle.italic,
-                        fontSize: 12.0
-                    ),
-                    textAlign: TextAlign.end,
-                  ),
-
-
-                ],
-              ),
-            ),
-          ), Card(
-            elevation: 5.0,
-            color: Colors.blue[100],
-            margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
-            child: Padding(
-              padding: const EdgeInsets.all(12.0),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: [
-                  Text(
-                    "Breast is life, Duna means power",
-                    style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontStyle: FontStyle.italic,
-                        fontSize: 20.0
-                    ),
-                    textAlign: TextAlign.start,
-                  ),
-                  SizedBox(height: 10,),
-                  Text(
-                    "~Emmanuel Dikkoe",
-                    style: TextStyle(
-
-                        fontStyle: FontStyle.italic,
-                        fontSize: 12.0
-                    ),
-                    textAlign: TextAlign.end,
-                  ),
-
-
-                ],
-              ),
-            ),
-          ), Card(
-            elevation: 5.0,
-            color: Colors.blue[100],
-            margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
-            child: Padding(
-              padding: const EdgeInsets.all(12.0),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: [
-                  Text(
-                    "Breast is life, Duna means power",
-                    style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontStyle: FontStyle.italic,
-                        fontSize: 20.0
-                    ),
-                    textAlign: TextAlign.start,
-                  ),
-                  SizedBox(height: 10,),
-                  Text(
-                    "~Emmanuel Dikkoe",
-                    style: TextStyle(
-
-                        fontStyle: FontStyle.italic,
-                        fontSize: 12.0
-                    ),
-                    textAlign: TextAlign.end,
-                  ),
-
-
-                ],
-              ),
-            ),
-          ), Card(
-            elevation: 5.0,
-            color: Colors.blue[100],
-            margin: EdgeInsets.fromLTRB(16.0, 16.0,16.0, 0),
-            child: Padding(
-              padding: const EdgeInsets.all(12.0),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: [
-                  Text(
-                    "Breast is life, Duna means power",
-                    style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontStyle: FontStyle.italic,
-                        fontSize: 20.0
-                    ),
-                    textAlign: TextAlign.start,
-                  ),
-                  SizedBox(height: 10,),
-                  Text(
-                    "~Emmanuel Dikkoe",
-                    style: TextStyle(
-
-                        fontStyle: FontStyle.italic,
-                        fontSize: 12.0
-                    ),
-                    textAlign: TextAlign.end,
-                  ),
-
-
-                ],
-              ),
-            ),
-          ),
-
-        ],
+          ],
+        ),
       ),
     );
   }
