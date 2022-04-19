@@ -38,6 +38,7 @@ Card(
       style: TextStyle(
 
       ),
+        textAlign: TextAlign.start,
       )
 
     ],
