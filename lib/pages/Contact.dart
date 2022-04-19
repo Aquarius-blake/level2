@@ -103,7 +103,7 @@ fontWeight: FontWeight.bold,
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                   Text(
-                    "Email",
+                    "Phone",
                     style: TextStyle(
 
                         fontStyle: FontStyle.italic,
@@ -112,7 +112,7 @@ fontWeight: FontWeight.bold,
                     textAlign: TextAlign.start,
                   ),
                   Text(
-                    "Donchicken@SukonDeez.Nuts",
+                    "+27 294 374 4736",
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontStyle: FontStyle.italic,
