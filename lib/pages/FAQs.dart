@@ -52,8 +52,8 @@ class _FAQState extends State<FAQ> {
                    ),
                   Text(
 
-                    "Something wwerkwbjekrwer kewrkbew rhbwe rjbwerkjbwe rkwejbrkw erk",
-                    textAlign: TextAlign.end,
+                    "Something wwerkwbjekrwer kewrkb",
+                    textAlign: TextAlign.start,
                     style: TextStyle(
                       fontStyle: FontStyle.italic,
                       fontSize: 12.0,
