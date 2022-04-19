@@ -12,7 +12,7 @@ class _FAQState extends State<FAQ> {
   Widget build(BuildContext context) {
     return Scaffold(
 appBar: AppBar(
-  backgroundColor: Colors.blue[100],
+  backgroundColor: Colors.blue[300],
 title: Row(
   children: [
 
