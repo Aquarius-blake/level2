@@ -53,7 +53,7 @@ class _FAQState extends State<FAQ> {
                      ),
                     Text(
 
-                      "Something wwerkwbjekrwer kewrkb",
+                      "Busty girls with a fat ass",
                       textAlign: TextAlign.start,
                       style: TextStyle(
                         fontStyle: FontStyle.italic,
