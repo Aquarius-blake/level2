@@ -105,7 +105,7 @@ class _FAQState extends State<FAQ> {
                   children: [
                     Text(
 
-                      "Something asdfdsjb asjbdajsbdj asdasjhbdjasd dassadhfb",
+                      "Number of orgasms per a year",
                       textAlign: TextAlign.start,
                       style: TextStyle(
                         fontStyle: FontStyle.italic,
