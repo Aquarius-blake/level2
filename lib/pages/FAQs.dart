@@ -43,7 +43,7 @@ class _FAQState extends State<FAQ> {
                   children: [
                     Text(
 
-                      "Type girls Prefered",
+                      "Type of girls Prefered",
                       textAlign: TextAlign.start,
                       style: TextStyle(
                         fontStyle: FontStyle.italic,
