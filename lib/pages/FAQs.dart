@@ -115,7 +115,7 @@ class _FAQState extends State<FAQ> {
                     ),
                     Text(
 
-                      "Something wwerkwbjekrwer kewrkb",
+                      "171 orgasms",
                       textAlign: TextAlign.start,
                       style: TextStyle(
                         fontStyle: FontStyle.italic,
@@ -136,7 +136,7 @@ class _FAQState extends State<FAQ> {
                   children: [
                     Text(
 
-                      "Something asdfdsjb asjbdajsbdj asdasjhbdjasd dassadhfb",
+                      "Something asdfdsjb asjbdajsbdj asdasjhbdjas",
                       textAlign: TextAlign.start,
                       style: TextStyle(
                         fontStyle: FontStyle.italic,
