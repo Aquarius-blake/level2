@@ -176,7 +176,7 @@ class _FAQState extends State<FAQ> {
                     ),
                     Text(
 
-                      "Something wwerkwbjekrwer kewrkb",
+                      "Answer Placeholder",
                       textAlign: TextAlign.start,
                       style: TextStyle(
                         fontStyle: FontStyle.italic,
