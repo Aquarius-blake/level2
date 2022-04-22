@@ -136,7 +136,7 @@ class _FAQState extends State<FAQ> {
                   children: [
                     Text(
 
-                      "Something asdfdsjb asjbdajsbdj asdasjhbdjas",
+                      "Question Place holder",
                       textAlign: TextAlign.start,
                       style: TextStyle(
                         fontStyle: FontStyle.italic,
