@@ -90,7 +90,9 @@ class _QuotesState extends State<Quotes> {
       backgroundColor:Colors.white,
       drawer: Drawer(
         backgroundColor: Colors.white54,
+
         child: SingleChildScrollView(
+
           child: Column(
             children: <Widget>[
               DrawerHeader(
