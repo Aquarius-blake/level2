@@ -42,6 +42,7 @@ class _QuotesState extends State<Quotes> {
     Quote(text: "Boys boys no be fam, nti mi diɛ mɛ allow cash-out ",author:" ~Judas Iscariot"),
     Quote(text: "Breast is life, Duna means power ",author:" ~Emmanuel Dikkoe"),
     Quote(text: "Wo sua na ɛnkɔ aa, Di baba ",author:" ~Albert Einstein"),
+    Quote(text: "What is friends may never fuck",author:" ~Henry liang"),
     Quote(text: "The bigger the bust, the greater the force of attraction ",author:" ~Isaac Newton "),
     Quote(text: "🤣🤣🤣🤣🤣🤣",author:" ~jackie"),
 
